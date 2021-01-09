@@ -1,0 +1,97 @@
+2021-01-09T02:42:55.844Z - info: Website generation (lazy) started at 10:42:51 AM
+2021-01-09T02:43:07.743Z - info: Building assets...
+2021-01-09T02:43:14.216Z - info: Assets built
+2021-01-09T02:43:14.217Z - info: Generating landing page...
+2021-01-09T02:43:15.241Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-01-09T02:43:15.721Z - info: Site data built
+2021-01-09T02:43:15.721Z - info: Website generation (lazy) complete! Total build time: 24.17s
+2021-01-09T02:43:16.888Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-01-09T02:43:16.889Z - info: Press CTRL+C to stop ...
+2021-01-09T02:44:04.297Z - info: [10:44:04 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\studentData.mbdf
+2021-01-09T02:44:05.326Z - info: Assets built
+2021-01-09T02:44:13.961Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\teamList as some of its dependencies were changed since the last visit
+2021-01-09T02:44:14.472Z - info: Site data built
+2021-01-09T02:44:14.472Z - info: Lazy website regeneration complete! Total build time: 0.512s
+2021-01-09T02:46:20.357Z - info: [10:46:20 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\studentData.mbdf
+2021-01-09T02:46:21.361Z - info: Rebuilding 1 pages
+2021-01-09T02:46:21.815Z - info: Site data built
+2021-01-09T02:46:21.815Z - info: Pages rebuilt
+2021-01-09T02:46:21.815Z - info: Website regeneration complete! Total build time: 0.456s
+2021-01-09T02:46:45.057Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials as some of its dependencies were changed since the last visit
+2021-01-09T02:46:45.522Z - info: Site data built
+2021-01-09T02:46:45.522Z - info: Lazy website regeneration complete! Total build time: 0.466s
+2021-01-09T02:47:34.673Z - info: [10:47:34 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\timetables.mbdf
+2021-01-09T02:47:34.682Z - info: [10:47:34 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\studentData.mbdf
+2021-01-09T02:47:35.676Z - info: Rebuilding 1 pages
+2021-01-09T02:47:36.247Z - info: Site data built
+2021-01-09T02:47:36.247Z - info: Pages rebuilt
+2021-01-09T02:47:36.247Z - info: Website regeneration complete! Total build time: 0.572s
+2021-01-09T02:57:05.086Z - info: [10:57:05 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\timetables.mbdf
+2021-01-09T02:57:06.100Z - info: Rebuilding 1 pages
+2021-01-09T02:57:06.996Z - info: Site data built
+2021-01-09T02:57:06.997Z - info: Pages rebuilt
+2021-01-09T02:57:06.997Z - info: Website regeneration complete! Total build time: 0.902s
+2021-01-09T03:00:22.018Z - info: [11:00:22 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\timetables.mbdf
+2021-01-09T03:00:23.022Z - info: Rebuilding 1 pages
+2021-01-09T03:00:23.479Z - info: Site data built
+2021-01-09T03:00:23.479Z - info: Pages rebuilt
+2021-01-09T03:00:23.480Z - info: Website regeneration complete! Total build time: 0.46s
+2021-01-09T03:02:25.887Z - info: [11:02:25 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\timetables.mbdf
+2021-01-09T03:02:26.888Z - info: Rebuilding 1 pages
+2021-01-09T03:02:27.443Z - info: Site data built
+2021-01-09T03:02:27.444Z - info: Pages rebuilt
+2021-01-09T03:02:27.444Z - info: Website regeneration complete! Total build time: 0.557s
+2021-01-09T03:03:02.565Z - info: [11:03:02 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-09T03:03:03.570Z - info: Rebuilding 1 pages
+2021-01-09T03:03:03.973Z - info: Site data built
+2021-01-09T03:03:03.973Z - info: Pages rebuilt
+2021-01-09T03:03:03.973Z - info: Website regeneration complete! Total build time: 0.406s
+2021-01-09T03:03:20.984Z - info: [11:03:20 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-09T03:03:21.988Z - info: Rebuilding 1 pages
+2021-01-09T03:03:22.381Z - info: Site data built
+2021-01-09T03:03:22.381Z - info: Pages rebuilt
+2021-01-09T03:03:22.381Z - info: Website regeneration complete! Total build time: 0.397s
+2021-01-09T03:04:39.953Z - info: [11:04:39 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-09T03:04:40.957Z - info: Rebuilding 1 pages
+2021-01-09T03:04:41.347Z - info: Site data built
+2021-01-09T03:04:41.347Z - info: Pages rebuilt
+2021-01-09T03:04:41.347Z - info: Website regeneration complete! Total build time: 0.392s
+2021-01-09T03:05:07.140Z - info: [11:05:07 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-09T03:05:08.146Z - info: Rebuilding 1 pages
+2021-01-09T03:05:08.553Z - info: Site data built
+2021-01-09T03:05:08.554Z - info: Pages rebuilt
+2021-01-09T03:05:08.554Z - info: Website regeneration complete! Total build time: 0.411s
+2021-01-09T03:05:35.298Z - info: [11:05:35 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-09T03:05:36.302Z - info: Rebuilding 1 pages
+2021-01-09T03:05:36.672Z - info: Site data built
+2021-01-09T03:05:36.673Z - info: Pages rebuilt
+2021-01-09T03:05:36.673Z - info: Website regeneration complete! Total build time: 0.372s
+2021-01-09T03:05:40.475Z - info: [11:05:40 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-09T03:05:41.486Z - info: Rebuilding 1 pages
+2021-01-09T03:05:41.800Z - info: Site data built
+2021-01-09T03:05:41.800Z - info: Pages rebuilt
+2021-01-09T03:05:41.800Z - info: Website regeneration complete! Total build time: 0.32s
+2021-01-09T03:10:24.085Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\timeline as some of its dependencies were changed since the last visit
+2021-01-09T03:10:31.106Z - info: Site data built
+2021-01-09T03:10:31.107Z - info: Lazy website regeneration complete! Total build time: 7.023s
+2021-01-09T03:10:46.245Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\index as some of its dependencies were changed since the last visit
+2021-01-09T03:10:46.697Z - info: Site data built
+2021-01-09T03:10:46.697Z - info: Lazy website regeneration complete! Total build time: 0.452s
+2021-01-09T03:11:21.345Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\topics as some of its dependencies were changed since the last visit
+2021-01-09T03:11:25.829Z - info: Site data built
+2021-01-09T03:11:25.830Z - info: Lazy website regeneration complete! Total build time: 4.486s
+2021-01-09T03:11:26.071Z - debug:  
+2021-01-09T03:11:34.470Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\admin as some of its dependencies were changed since the last visit
+2021-01-09T03:11:35.670Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/admin/x' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tools.md'
+2021-01-09T03:11:37.039Z - debug:  
+2021-01-09T03:11:37.050Z - info: Site data built
+2021-01-09T03:11:37.050Z - info: Lazy website regeneration complete! Total build time: 2.581s
+2021-01-09T03:13:10.232Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\project as some of its dependencies were changed since the last visit
+2021-01-09T03:13:10.476Z - info: Site data built
+2021-01-09T03:13:10.476Z - info: Lazy website regeneration complete! Total build time: 0.244s
+2021-01-09T03:13:15.581Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\tutorial as some of its dependencies were changed since the last visit
+2021-01-09T03:13:15.813Z - info: Site data built
+2021-01-09T03:13:15.813Z - info: Lazy website regeneration complete! Total build time: 0.232s
+2021-01-09T03:21:08.448Z - info: Website generation started at 11:21:05 AM
+2021-01-09T03:21:17.566Z - info: Building assets...
