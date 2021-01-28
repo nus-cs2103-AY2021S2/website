@@ -1,0 +1,44 @@
+2021-01-28T03:11:39.542Z - info: Website generation (lazy) started at 11:11:31 AM
+2021-01-28T03:11:50.300Z - info: Building assets...
+2021-01-28T03:11:56.787Z - info: Assets built
+2021-01-28T03:11:56.788Z - info: Generating landing page...
+2021-01-28T03:11:58.760Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-01-28T03:11:59.341Z - info: Site data built
+2021-01-28T03:11:59.341Z - info: Website generation (lazy) complete! Total build time: 27.352s
+2021-01-28T03:12:00.487Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-01-28T03:12:00.487Z - info: Press CTRL+C to stop ...
+2021-01-28T03:14:48.996Z - info: [11:14:48 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\timetables.mbdf
+2021-01-28T03:14:50.072Z - info: Assets built
+2021-01-28T03:17:59.211Z - info: [11:17:59 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\timetables.mbdf
+2021-01-28T03:18:00.264Z - info: Assets built
+2021-01-28T03:18:35.902Z - info: [11:18:35 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\timetables.mbdf
+2021-01-28T03:18:36.930Z - info: Assets built
+2021-01-28T03:20:04.308Z - info: [11:20:04 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\timetables.mbdf
+2021-01-28T03:20:05.347Z - info: Assets built
+2021-01-28T03:20:20.760Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials as some of its dependencies were changed since the last visit
+2021-01-28T03:20:21.431Z - info: Site data built
+2021-01-28T03:20:21.432Z - info: Lazy website regeneration complete! Total build time: 0.672s
+2021-01-28T03:23:49.436Z - info: [11:23:49 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-28T03:23:50.452Z - info: Rebuilding 1 pages
+2021-01-28T03:23:50.983Z - info: Site data built
+2021-01-28T03:23:50.984Z - info: Pages rebuilt
+2021-01-28T03:23:50.984Z - info: Website regeneration complete! Total build time: 0.536s
+2021-01-28T03:25:17.966Z - info: [11:25:17 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-28T03:25:18.969Z - info: Rebuilding 1 pages
+2021-01-28T03:25:19.386Z - info: Site data built
+2021-01-28T03:25:19.386Z - info: Pages rebuilt
+2021-01-28T03:25:19.386Z - info: Website regeneration complete! Total build time: 0.42s
+2021-01-28T03:25:46.307Z - info: [11:25:46 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-28T03:25:47.312Z - info: Rebuilding 1 pages
+2021-01-28T03:25:47.749Z - info: Site data built
+2021-01-28T03:25:47.750Z - info: Pages rebuilt
+2021-01-28T03:25:47.750Z - info: Website regeneration complete! Total build time: 0.442s
+2021-01-28T03:27:22.553Z - info: [11:27:22 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tutorials.md
+2021-01-28T03:27:23.554Z - info: Rebuilding 1 pages
+2021-01-28T03:27:23.946Z - info: Site data built
+2021-01-28T03:27:23.946Z - info: Pages rebuilt
+2021-01-28T03:27:23.947Z - info: Website regeneration complete! Total build time: 0.394s
+2021-01-28T03:29:11.178Z - info: [11:29:11 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\variables.md
+2021-01-28T03:29:12.182Z - info: Assets built
+2021-01-28T03:29:46.340Z - info: Website generation started at 11:29:43 AM
+2021-01-28T03:29:55.311Z - info: Building assets...
