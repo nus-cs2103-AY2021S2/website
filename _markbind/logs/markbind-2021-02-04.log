@@ -1,0 +1,32 @@
+2021-02-04T06:46:28.980Z - info: Website generation (lazy) started at 2:46:24 PM
+2021-02-04T06:46:39.907Z - info: Building assets...
+2021-02-04T06:46:45.123Z - info: Assets built
+2021-02-04T06:46:45.124Z - info: Generating landing page...
+2021-02-04T06:46:46.615Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-02-04T06:46:47.172Z - info: Site data built
+2021-02-04T06:46:47.172Z - info: Website generation (lazy) complete! Total build time: 22.379s
+2021-02-04T06:46:48.009Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-02-04T06:46:48.009Z - info: Press CTRL+C to stop ...
+2021-02-04T06:49:18.462Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\index as some of its dependencies were changed since the last visit
+2021-02-04T06:49:19.173Z - info: Site data built
+2021-02-04T06:49:19.174Z - info: Lazy website regeneration complete! Total build time: 0.715s
+2021-02-04T06:49:25.039Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-expectations as some of its dependencies were changed since the last visit
+2021-02-04T06:49:25.575Z - info: Site data built
+2021-02-04T06:49:25.575Z - info: Lazy website regeneration complete! Total build time: 0.537s
+2021-02-04T06:50:48.525Z - info: [2:50:48 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-expectations.md
+2021-02-04T06:50:49.548Z - info: Rebuilding 1 pages
+2021-02-04T06:50:50.378Z - info: Site data built
+2021-02-04T06:50:50.379Z - info: Pages rebuilt
+2021-02-04T06:50:50.379Z - info: Website regeneration complete! Total build time: 0.847s
+2021-02-04T06:53:26.676Z - info: [2:53:26 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-expectations.md
+2021-02-04T06:53:27.699Z - info: Rebuilding 1 pages
+2021-02-04T06:53:28.183Z - info: Site data built
+2021-02-04T06:53:28.184Z - info: Pages rebuilt
+2021-02-04T06:53:28.184Z - info: Website regeneration complete! Total build time: 0.488s
+2021-02-04T06:54:28.701Z - info: [2:54:28 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-expectations.md
+2021-02-04T06:54:29.708Z - info: Rebuilding 1 pages
+2021-02-04T06:54:30.190Z - info: Site data built
+2021-02-04T06:54:30.190Z - info: Pages rebuilt
+2021-02-04T06:54:30.191Z - info: Website regeneration complete! Total build time: 0.485s
+2021-02-04T15:06:20.220Z - info: Website generation started at 11:06:14 PM
+2021-02-04T15:06:36.453Z - info: Building assets...
