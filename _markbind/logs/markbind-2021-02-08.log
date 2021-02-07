@@ -1,0 +1,598 @@
+2021-02-07T16:09:08.944Z - info: Website generation started at 12:09:01 AM
+2021-02-07T16:09:19.204Z - info: Building assets...
+2021-02-07T16:09:25.481Z - info: Assets built
+2021-02-07T16:09:25.482Z - info: Generating pages...
+2021-02-07T16:09:26.035Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 495, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 72, Column 46]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\appendixB-policies.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:1074:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+2021-02-07T16:09:42.365Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 495, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 72, Column 46]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\index.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:43)
+2021-02-07T16:09:44.038Z - debug:  
+2021-02-07T16:09:44.039Z - debug:  
+2021-02-07T16:09:44.039Z - debug:  
+2021-02-07T16:09:44.039Z - debug:  
+2021-02-07T16:09:44.039Z - debug:  
+2021-02-07T16:09:44.132Z - debug:  
+2021-02-07T16:10:19.891Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/about/usage.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.894Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/softwareEngineering/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.895Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/oop/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.896Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/requirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.897Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gatheringRequirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.897Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/specifyingRequirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.898Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/design/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.899Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designFundamentals/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.900Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/modeling/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.901Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/architecture/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.902Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designPatterns/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.903Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designApproaches/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.904Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/ides/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.905Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/codeQuality/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.905Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/refactoring/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.906Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/documentation/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.907Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/errorHandling/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.907Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/integration/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.908Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/reuse/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.909Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/qualityAssurance/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.910Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testing/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.910Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testCaseDesign/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.912Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/revisionControl/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.912Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/projectPlanning/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.913Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/teamwork/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.914Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/processModels/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.914Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/uml/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.915Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/intellij/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.916Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gitAndGithub/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.917Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/principles/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.918Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/cppToJava/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.918Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/definitions.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/references.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.920Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/outcomes.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:10:19.920Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-07T16:11:19.032Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 495, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 72, Column 46]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week9\tutorial.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:1074:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:53
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessPanel (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:39)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:345:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+2021-02-07T16:11:19.069Z - error:  Template render error: (unknown path) [Line 26, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week8\tutorial.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:219:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:43)
+2021-02-07T16:11:19.095Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week7\tutorial.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:72:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:377:30
+    at Array.map (<anonymous>)
+    at DomHandler._callback (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:374:27)
+2021-02-07T16:11:19.202Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week5\tutorial.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:129:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:377:30
+    at Array.map (<anonymous>)
+    at DomHandler._callback (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:374:27)
+2021-02-07T16:11:19.232Z - error:  Template render error: (unknown path) [Line 26, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week4\tutorial.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:219:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:43)
+2021-02-07T16:11:19.258Z - error:  Template render error: (unknown path) [Line 26, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week3\tutorial.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:219:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:43)
+2021-02-07T16:11:19.393Z - error:  Template render error: (unknown path) [Line 26, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week13\tutorial.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:219:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:43)
+2021-02-07T16:11:19.549Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 495, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 72, Column 46]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week11\tutorial.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:1074:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:53
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessPanel (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:39)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:345:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+2021-02-07T16:11:41.240Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 495, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 72, Column 46]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week9\project.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:377:30
+    at Array.map (<anonymous>)
+    at DomHandler._callback (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:374:27)
+2021-02-07T16:11:48.800Z - info: Deployed at https://nus-cs2103-ay2021s2.github.io/website!
+2021-02-07T16:12:07.290Z - info: Website generation (lazy) started at 12:12:02 AM
+2021-02-07T16:12:15.919Z - info: Building assets...
+2021-02-07T16:12:24.834Z - info: Assets built
+2021-02-07T16:12:24.834Z - info: Generating landing page...
+2021-02-07T16:12:26.036Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 495, Column 14]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 72, Column 46]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 251, Column 16]
+  parseAggregate: expected comma after expression
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\index.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:43)
+2021-02-07T16:12:26.137Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-02-07T16:12:26.612Z - info: Site data built
+2021-02-07T16:12:26.612Z - info: Website generation (lazy) complete! Total build time: 24.13s
+2021-02-07T16:12:27.535Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-02-07T16:12:27.536Z - info: Press CTRL+C to stop ...
+2021-02-07T16:12:53.232Z - info: [12:12:53 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\studentData.mbdf
+2021-02-07T16:12:54.243Z - info: Rebuilding 1 pages
+2021-02-07T16:12:55.433Z - info: Site data built
+2021-02-07T16:12:55.434Z - info: Pages rebuilt
+2021-02-07T16:12:55.434Z - info: Website regeneration complete! Total build time: 1.194s
+2021-02-07T16:13:12.703Z - info: Website generation started at 12:13:09 AM
+2021-02-07T16:13:21.251Z - info: Building assets...
