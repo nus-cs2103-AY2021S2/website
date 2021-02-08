@@ -93,12 +93,12 @@
 <p></p>
 <h1 id="week-5-fri-feb-5th-tutorial"><span id="week-5-fri-feb-5th-tutorial" class="anchor"></span>Week 5 <small><small><span class="dimmed">[Fri, Feb 5th]</span> - Tutorial</small></small><a class="fa fa-anchor" href="#week-5-fri-feb-5th-tutorial" onclick="event.stopPropagation()"></a></h1>
 <div>
-<h4 id="1-discuss-the-abstraction-aspect-of-ip-prs"><span id="1-discuss-the-abstraction-aspect-of-ip-prs" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Discuss the <em>abstraction</em> aspect of iP PRs<a class="fa fa-anchor" href="#1-discuss-the-abstraction-aspect-of-ip-prs" onclick="event.stopPropagation()"></a></h4>
+<h4 id="1-discuss-code-quality-problems-of-ip-prs"><span id="1-discuss-code-quality-problems-of-ip-prs" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Discuss code quality problems of iP PRs<a class="fa fa-anchor" href="#1-discuss-code-quality-problems-of-ip-prs" onclick="event.stopPropagation()"></a></h4>
 
 <ol>
 <li>
-<p><strong>Find the PR you have been allocated to discuss</strong> (given below). If the allocated PR is not available or suitable, you can choose the fallback option, and failing that, any random PR.</p>
-<panel class="algolia-no-index"><template slot="header"><p>PR allocation</p></template>
+<p><strong>Find the PR you have been allocated to discuss</strong> (expand the the panel below). If the allocated PR is not available or suitable, you can choose the fallback option, and failing that, any random PR.</p>
+<panel class="algolia-no-index"><template slot="header"><p><strong>PR allocation</strong></p></template>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
 <th>Your username</th>
@@ -1031,8 +1031,13 @@
 <td><a href="https://github.com/nus-cs2103-AY2021S2/ip/pulls/lirc572">lirc572's PR</a></td></tr></tbody></table></div></panel>
 <p></p></li>
 <li>
-<p><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 10 minutes</span></span> <strong>Find potential <em>abstraction</em> problems</strong>: Go through the code in the dif view (i.e., the <span class="tab"><svg version="1.1" width="13" height="16" viewBox="0 0 13 16" class="octicon octicon-diff" aria-hidden="true"><path fill-rule="evenodd" d="M6 7h2v1H6v2H5V8H3V7h2V5h1v2zm-3 6h5v-1H3v1zM7.5 2L11 5.5V15c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h6.5zM10 6L7 3H1v12h9V6zM8.5 0H3v1h5l4 4v8h1V4.5L8.5 0z"/></svg> Files changed</span> tab), and and find potential <mark>abstraction problems (weak SLAP, arrow-head style code, too-long methods, too-deep nesting)</mark> <br>
-<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> To identify long methods or deep nesting, zoom out and scroll through the entire PR code to do a visual inspection (no need to read the code line-by-line). After visually locating a method that looks too long/deep, have a closer look to see it can be improved by using better abstraction.If you are unsure about a case, you can also rope the tutor in to the discussion.</p>
+<p><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> 10 minutes</span></span> <strong>Find given problems</strong>: Go through the code in the diff view (i.e., the <span class="tab"><svg version="1.1" width="13" height="16" viewBox="0 0 13 16" class="octicon octicon-diff" aria-hidden="true"><path fill-rule="evenodd" d="M6 7h2v1H6v2H5V8H3V7h2V5h1v2zm-3 6h5v-1H3v1zM7.5 2L11 5.5V15c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h6.5zM10 6L7 3H1v12h9V6zM8.5 0H3v1h5l4 4v8h1V4.5L8.5 0z"/></svg> Files changed</span> tab), and and find instances of following code quality problems <span class="text-danger">(ignore other types of code quality problems)</span><br>
+a. weak SLAP<br>
+b. arrow-head style code<br>
+c. too-long methods<br>
+d. too-deep nesting<br>
+<br>
+<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> To identify long methods or deep nesting, zoom out and scroll through the entire PR code to do a visual inspection (no need to read the code line-by-line). After visually locating a method that looks too long/deep, have a closer look to see it can be improved by using better abstraction. If you are unsure about a case, you can also rope the tutor in to the discussion.</p>
 <ul>
 <li>If you can't find at least one example, you can try the fallback option provided, and failing that, another random iP PR.</li>
 <li>You can also select borderline cases.</li>
@@ -1044,7 +1049,85 @@
 <box type="info" seamless>
 You are not required to (but welcome to) post review comments in the PRs you examined.
 </box></p></li></ol>
-<h4 id="2-prioritize-tp-user-stories"><span id="2-prioritize-tp-user-stories" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Prioritize tP user stories<a class="fa fa-anchor" href="#2-prioritize-tp-user-stories" onclick="event.stopPropagation()"></a></h4>
+<h4 id="2-user-stories-exercise"><span id="2-user-stories-exercise" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> User stories exercise<a class="fa fa-anchor" href="#2-user-stories-exercise" onclick="event.stopPropagation()"></a></h4>
+<ul>
+<li><strong>Consider the following user stories</strong> a team came up with, for a tP that aims to build a software for tracking travel plans.</li></ul>
+<div class="indented-level2">
+<div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
+<tr>
+<th>1</th>
+<th>As a …</th>
+<th>I can …</th>
+<th>So that I can …</th>
+<th>notes</th></tr></thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>first-time user</td>
+<td>see some sample trips when I open the app</td>
+<td>easily try out its features without needing to add my data first</td>
+<td></td></tr>
+<tr>
+<td>3</td>
+<td>first-time user</td>
+<td>see a help message explaining which features I should try first</td>
+<td>start by trying features that are more suited for new users</td>
+<td>e.g., &quot;hey you seem to be new. Try adding a trip first&quot;</td></tr>
+<tr>
+<td>4</td>
+<td>new user ready to adopt the app for my own use</td>
+<td>purge all data</td>
+<td>get rid of sample/dummy data and start adding my real data</td>
+<td></td></tr>
+<tr>
+<td>5</td>
+<td>busy user</td>
+<td>track all trip-related data inside the app</td>
+<td>save time looking for data</td>
+<td></td></tr>
+<tr>
+<td>6</td>
+<td>user</td>
+<td>sending trip info to friends</td>
+<td>via email or telegram</td>
+<td></td></tr>
+<tr>
+<td>7</td>
+<td>user</td>
+<td>add a trip</td>
+<td></td>
+<td></td></tr>
+<tr>
+<td>8</td>
+<td>user</td>
+<td>delete a trip</td>
+<td>get rid of trip no longer needed to track</td>
+<td></td></tr>
+<tr>
+<td>9</td>
+<td>user</td>
+<td>edit trip details</td>
+<td>correct mistakes I made when adding a trip</td>
+<td></td></tr>
+<tr>
+<td>10</td>
+<td>user</td>
+<td>view all trip details</td>
+<td>recall details of trips</td>
+<td></td></tr>
+<tr>
+<td>11</td>
+<td>user</td>
+<td>see the next upcoming trip details when I open the app</td>
+<td>save the step of searching for the trip</td>
+<td>reason: the next upcoming trips is the most likely trip the user may want to see</td></tr></tbody></table></div></div>
+<ul>
+<li><strong>Think of the answers to the following questions</strong>. These will be discussed during the tutorial.
+<ol>
+<li>Which user stories don’t follow the correct format?</li>
+<li>Any of them too big for the tP planning? <span class="dimmed">i.e., cannot be implemented by one person within 1-2 days</span></li>
+<li>Which are must-have for v1.2? <span class="dimmed">i.e., impossible to use the app without it</span></li></ol></li></ul>
+<h4 id="3-prioritize-tp-user-stories"><span id="3-prioritize-tp-user-stories" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> Prioritize tP user stories<a class="fa fa-anchor" href="#3-prioritize-tp-user-stories" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>If you haven't done so already, prioritize tP user stories as explained in the panel below.</li></ul>
 <div class="indented-level2">
@@ -1078,7 +1161,7 @@ You are not required to (but welcome to) post review comments in the PRs you exa
 <li><strong>Second stage</strong>:
 <ul>
 <li>All members discuss the remaining user stories (i.e., the ones not discarded in the first stage), and try to trim the list further.</li></ul></li></ul></div></panel></div><p></p>
-<h4 id="3-time-permitting-create-a-feature-list-for-v1-2"><span id="3-time-permitting-create-a-feature-list-for-v1-2" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span class="badge badge-secondary">time permitting</span> Create a <em>feature list</em> for v1.2<a class="fa fa-anchor" href="#3-time-permitting-create-a-feature-list-for-v1-2" onclick="event.stopPropagation()"></a></h4>
+<h4 id="4-time-permitting-create-a-feature-list-for-v1-2"><span id="4-time-permitting-create-a-feature-list-for-v1-2" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <span class="badge badge-secondary">time permitting</span> Create a <em>feature list</em> for v1.2<a class="fa fa-anchor" href="#4-time-permitting-create-a-feature-list-for-v1-2" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>If there is time left, do the following tP task that is scheduled for the following week.</li></ul>
 <div class="indented-level2">
@@ -1118,9 +1201,10 @@ Note down the feature list in your online project notes document.</li></ul>
 <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
 <a class="nav-link py-1" href="#week-5-fri-feb-5th-tutorial">Week 5 [Fri, Feb 5th] - Tutorial&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#1-discuss-the-abstraction-aspect-of-ip-prs">1 Discuss the abstraction aspect of iP PRs&#x200E;</a>
-<a class="nav-link py-1" href="#2-prioritize-tp-user-stories">2 Prioritize tP user stories&#x200E;</a>
-<a class="nav-link py-1" href="#3-time-permitting-create-a-feature-list-for-v1-2">3 time permitting Create a feature list for v1.2&#x200E;</a>
+<a class="nav-link py-1" href="#1-discuss-code-quality-problems-of-ip-prs">1 Discuss code quality problems of iP PRs&#x200E;</a>
+<a class="nav-link py-1" href="#2-user-stories-exercise">2 User stories exercise&#x200E;</a>
+<a class="nav-link py-1" href="#3-prioritize-tp-user-stories">3 Prioritize tP user stories&#x200E;</a>
+<a class="nav-link py-1" href="#4-time-permitting-create-a-feature-list-for-v1-2">4 time permitting Create a feature list for v1.2&#x200E;</a>
 </nav>
 
 </nav>
@@ -1130,7 +1214,7 @@ Note down the feature list in your online project notes document.</li></ul>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Mon, 8 Feb 2021, 0:30:25 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Mon, 8 Feb 2021, 16:19:09 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
