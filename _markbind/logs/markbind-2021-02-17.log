@@ -1,0 +1,30 @@
+2021-02-17T14:11:14.540Z - info: Website generation (lazy) started at 10:11:07 PM
+2021-02-17T14:11:24.953Z - info: Building assets...
+2021-02-17T14:11:30.774Z - info: Assets built
+2021-02-17T14:11:30.775Z - info: Generating landing page...
+2021-02-17T14:11:32.222Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-02-17T14:11:32.701Z - info: Site data built
+2021-02-17T14:11:32.702Z - info: Website generation (lazy) complete! Total build time: 25.605s
+2021-02-17T14:11:33.560Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-02-17T14:11:33.560Z - info: Press CTRL+C to stop ...
+2021-02-17T14:11:46.148Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\index as some of its dependencies were changed since the last visit
+2021-02-17T14:11:46.451Z - info: Site data built
+2021-02-17T14:11:46.452Z - info: Lazy website regeneration complete! Total build time: 0.304s
+2021-02-17T14:11:50.973Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\uml as some of its dependencies were changed since the last visit
+2021-02-17T14:11:56.976Z - info: Site data built
+2021-02-17T14:11:56.977Z - info: Lazy website regeneration complete! Total build time: 6.004s
+2021-02-17T14:11:57.699Z - debug:  
+2021-02-17T14:11:57.699Z - debug:  
+2021-02-17T14:11:57.699Z - debug:  
+2021-02-17T14:11:57.702Z - debug:  
+2021-02-17T14:12:33.851Z - info: [10:12:33 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\uml\sequenceDiagrams\minimalNotation\text.md
+2021-02-17T14:12:34.854Z - info: Rebuilding 1 pages
+2021-02-17T14:12:40.700Z - debug:  
+2021-02-17T14:12:40.700Z - debug:  
+2021-02-17T14:12:40.700Z - debug:  
+2021-02-17T14:12:40.701Z - debug:  
+2021-02-17T14:12:40.719Z - info: Site data built
+2021-02-17T14:12:40.720Z - info: Pages rebuilt
+2021-02-17T14:12:40.721Z - info: Website regeneration complete! Total build time: 5.867s
+2021-02-17T14:19:29.195Z - info: Website generation started at 10:19:26 PM
+2021-02-17T14:19:38.465Z - info: Building assets...
