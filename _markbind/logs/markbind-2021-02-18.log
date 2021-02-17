@@ -1,0 +1,29 @@
+2021-02-17T17:26:06.031Z - info: Website generation (lazy) started at 1:25:59 AM
+2021-02-17T17:26:16.718Z - info: Building assets...
+2021-02-17T17:26:23.195Z - info: Assets built
+2021-02-17T17:26:23.196Z - info: Generating landing page...
+2021-02-17T17:26:25.267Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-02-17T17:26:25.828Z - info: Site data built
+2021-02-17T17:26:25.828Z - info: Website generation (lazy) complete! Total build time: 26.261s
+2021-02-17T17:26:26.661Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-02-17T17:26:26.661Z - info: Press CTRL+C to stop ...
+2021-02-17T17:26:44.209Z - info: [1:26:44 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2021-02-17T17:26:45.216Z - info: Rebuilding 1 pages
+2021-02-17T17:26:46.254Z - info: Site data built
+2021-02-17T17:26:46.254Z - info: Pages rebuilt
+2021-02-17T17:26:46.254Z - info: Website regeneration complete! Total build time: 1.039s
+2021-02-17T17:26:47.197Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week6\project as some of its dependencies were changed since the last visit
+2021-02-17T17:26:49.830Z - info: Site data built
+2021-02-17T17:26:49.830Z - info: Lazy website regeneration complete! Total build time: 2.633s
+2021-02-17T17:28:00.729Z - info: [1:28:00 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2021-02-17T17:28:01.750Z - info: Rebuilding 1 pages
+2021-02-17T17:28:04.424Z - info: Site data built
+2021-02-17T17:28:04.425Z - info: Pages rebuilt
+2021-02-17T17:28:04.425Z - info: Website regeneration complete! Total build time: 2.677s
+2021-02-17T17:28:37.181Z - info: [1:28:37 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2021-02-17T17:28:38.194Z - info: Rebuilding 1 pages
+2021-02-17T17:28:40.814Z - info: Site data built
+2021-02-17T17:28:40.814Z - info: Pages rebuilt
+2021-02-17T17:28:40.815Z - info: Website regeneration complete! Total build time: 2.627s
+2021-02-17T17:29:09.182Z - info: Website generation started at 1:29:06 AM
+2021-02-17T17:29:17.410Z - info: Building assets...
