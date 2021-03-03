@@ -46,7 +46,7 @@
     <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
     <li><a href="https://github.com/nus-cs2103-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
     <li tags="m--cs2103 m--tic4001 m--tic4002"><a href="/website/admin/ip-showcase.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> iP Showcase</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-cs2103-ay2021s2.github.io/ip-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
     <li><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
     <hr>
     <span><strong> Team Project (tP):</strong></span>
@@ -54,7 +54,7 @@
     <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-cs2103-AY2021S2/tp" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> tP Upstream Repo (AB3)</span></a></li>
     
     <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
     <li><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
   <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
     <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
@@ -297,7 +297,7 @@ e.g.</p>
 <li><strong>Overview</strong>: A short overview of your product to provide some context to the reader. The opening 1-2 sentences may be reused by all team members. If your product overview extends beyond 1-2 sentences, the remainder should be written by yourself.</li>
 <li><strong>Summary of Contributions</strong> --Suggested items to include:
 <ul>
-<li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/#breakdown=true">tP Code Dashboard</a>. The link is available in the <a href="/website/admin/teamList.html">Project List Page</a> -- linked to the <span class="dimmed"><span aria-hidden="true" class="fas fa-code"></span></span> icon under your profile picture.</li>
+<li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other">tP Code Dashboard</a>. The link is available in the <a href="/website/admin/teamList.html">Project List Page</a> -- linked to the <span class="dimmed"><span aria-hidden="true" class="fas fa-code"></span></span> icon under your profile picture.</li>
 <li><strong>Enhancements implemented:</strong> A summary of the enhancements you implemented.</li>
 <li><strong>Contributions to documentation:</strong> Which sections did you contribute to the UG?</li>
 <li><strong>Contributions to the DG:</strong> Which sections did you contribute to the DG? Which UML diagrams did you add/updated?</li>
@@ -419,7 +419,8 @@ e.g.</p>
 <ul>
 <li>Update the given <code class="hljs inline no-lang" v-pre>docs\README.md</code>. See <a href="https://guides.github.com/features/mastering-markdown/">this guide</a> to GitHub flavored Markdown (GFMD).</li>
 <li>Go to the <span class="border border-secondary border-bottom-0 pr-1 pl-1 mr-1 ml-1 rounded-top"><small><span aria-hidden="true" class="fas fa-cog"></span> settings</small></span> page of your Duke fork and enable GitHub pages to publish from the <code class="hljs inline no-lang" v-pre>docs</code> folder (you can select a theme too).</li>
-<li>Go to <code class="hljs inline no-lang" v-pre>http://{your username}.github.io/{repo name}/</code> to view the user guide of your product. <span class="dimmed">Note: it could take 5-10 minutes for GitHub to update the page.</span></li></ul>
+<li>Go to <code class="hljs inline no-lang" v-pre>http://{your username}.github.io/{repo name}/</code> to view the user guide of your product. <span class="dimmed">Note: it could take 5-10 minutes for GitHub to update the page.</span><br>
+<font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> It is important that you carefully check the content of the UG available at the above URL to ensure the HTML version of the page (auto-converted from MarkDown by GitHub Pages) has the right content. In some rare cases, the page might look alright on GitHub file preview but will not render correctly on GitHub pages.</li></ul>
 <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>How detailed should the user guide be?</strong> It should be fit-for-purpose. i.e., think from the user's point of view and include as much information as necessary for the user (while trying to keep it as short as possible -- users don't have the patience to read lengthy user guides either), in a format as friendly to the user as possible.</p></div></panel></div></div></div></div>
 <p></p>
 <span tags="m--cs2103" id="ip-ui-png-test">
@@ -1075,7 +1076,7 @@ e.g.</p>
 <li><strong>Overview</strong>: A short overview of your product to provide some context to the reader. The opening 1-2 sentences may be reused by all team members. If your product overview extends beyond 1-2 sentences, the remainder should be written by yourself.</li>
 <li><strong>Summary of Contributions</strong> --Suggested items to include:
 <ul>
-<li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/#breakdown=true">tP Code Dashboard</a>. The link is available in the <a href="/website/admin/teamList.html">Project List Page</a> -- linked to the <span class="dimmed"><span aria-hidden="true" class="fas fa-code"></span></span> icon under your profile picture.</li>
+<li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other">tP Code Dashboard</a>. The link is available in the <a href="/website/admin/teamList.html">Project List Page</a> -- linked to the <span class="dimmed"><span aria-hidden="true" class="fas fa-code"></span></span> icon under your profile picture.</li>
 <li><strong>Enhancements implemented:</strong> A summary of the enhancements you implemented.</li>
 <li><strong>Contributions to documentation:</strong> Which sections did you contribute to the UG?</li>
 <li><strong>Contributions to the DG:</strong> Which sections did you contribute to the DG? Which UML diagrams did you add/updated?</li>
@@ -1340,7 +1341,7 @@ There is no requirement for a minimum coverage level. Note that in a production 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Tue, 23 Feb 2021, 20:53:20 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Wed, 3 Mar 2021, 17:28:48 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
