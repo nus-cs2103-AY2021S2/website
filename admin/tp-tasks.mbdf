@@ -750,7 +750,7 @@ Here are some reasons:
 <span id="heading_smoke_test_catcher">{{ icon_individual }} Smoke-test CATcher</span>
 <span id="desc_smoke_test_catcher">
 
-* **This activity is <span class="text-danger">compulsory</span> and counts for `3` participation points.** Please do it before the weekly deadline.{% if tic4002 %} This will be counted for next week's participation.{% endif %}
+* **This activity is <span class="text-danger">compulsory</span> and counts for `3` participation points.** Please do it before the weekly deadline.
 <div class="indented-level2">
 
 <box dismissible>
@@ -761,7 +761,7 @@ Here are some reasons:
 This week, we would like you to smoke-test the CATcher app **to ensure it can run in your computer**.
 <p/>
 
-<panel type="info" header="**The steps for smoke-testing CATcher:**" expanded>
+<panel type="info" header="**The steps for smoke-testing CATcher:**" minimized>
 
 **There are two versions of CATcher:**
 * The Web version - this will be the default option
@@ -771,8 +771,6 @@ This week, we would like you to smoke-test the CATcher app **to ensure it can ru
 
 
 ##### Step 1: smoke-test the Web version
-
-{% set dot = "." %}
 
 1. **Go to the CATcher Web version** at https://catcher-org.github.io/CATcher/ using ==the same computer (i.e., not a mobile device) that you plan to use for the practical exam==.
    * Use a common browser such as Chrome, Edge, Firefox, Safari
