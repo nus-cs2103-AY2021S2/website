@@ -206,7 +206,7 @@
 <p><strong>Grading criteria:</strong> Do these to earn full marks.</p>
 <ul>
 <li>Do close to an equal share of the team tasks (you can earn bonus marks by doing more than an equal share).</li>
-<li>Merge code in at least four of weeks 7, 8, 9, 10, 11, 12</li></ul></div></panel></div><p></p>
+<li>Have your code merged in at least four of weeks 7, 8, 9, 10, 11, 12</li></ul></div></panel></div><p></p>
 <p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Most aspects of project progress are tracked using automated scripts.</strong> <mark>Please follow our instructions closely or else the script will not be able to detect your progress</mark>. We prefer not to waste admin resources processing requests for partial credit for work that did not follow the instructions precisely, unless the progress was not detected due to a bug in the script.</p>
 <span id="milestoneCumulative">
 <p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Milestone requirements are cumulative</strong>. The recommended progress for the mid-milestone is an implicit requirement for the actual milestone unless a milestone requirement overrides a mid-milestone requirement <span class="dimmed">e.g., mid-milestone requires a document to be in a temp format while the actual milestone requires it to be in the proper format</span>. Similarly, a requirement for milestone <code class="hljs inline no-lang" v-pre>n</code> is also an implicit requirement for milestone <code class="hljs inline no-lang" v-pre>n+1</code> unless <code class="hljs inline no-lang" v-pre>n+1</code> overrides the <code class="hljs inline no-lang" v-pre>n</code> requirement. This means <mark>if you miss some requirement at milestone <code class="hljs inline no-lang" v-pre>n</code>, you should try to achieve it before milestone <code class="hljs inline no-lang" v-pre>n+1</code></mark> or else it could be noted again as a 'missed requirement' at milestone <code class="hljs inline no-lang" v-pre>n+1</code>.
@@ -894,7 +894,9 @@ e.g.</p>
 <li>If reviewers suggested any changes, Jean updates the PR accordingly.</li>
 <li>When reviewers are satisfied with the PR, one of the members (usually the team lead or a designated 'maintainer' of the main repo) merges the PR, which brings Jean’s code to the main repo.</li>
 <li>Other members, realizing there is new code in the upstream repo, sync their forks with the new upstream repo (i.e. the main repo). This is done by pulling the new code to their own local repo and pushing the updated code to their own fork.<br>
-<font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Possible mistake: Creating another 'reverse' PR from the team repo to the team member's fork to sync the member's fork with the merged code. PRs are meant to go from downstream repos to upstream repos, not in the other direction.</li></ol></div>
+<font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Possible mistake: Creating another 'reverse' PR from the team repo to the team member's fork to sync the member's fork with the merged code. PRs are meant to go from downstream repos to upstream repos, not in the other direction.</li></ol>
+<p>One main benefit of this workflow is that it does not require most contributors to have write permissions to the main repository. Only those who are merging PRs need write permissions.
+The main drawback of this workflow is the extra overhead of sending everything through forks.</p></div>
 <div>
   <div>
 <panel expanded><template slot="header"><p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources</p></template>
@@ -975,7 +977,11 @@ e.g.</p>
 <div><h4 id="feature-branch-flow"><span id="feature-branch-flow" class="anchor"></span><span>Feature branch flow</span><a class="fa fa-anchor" href="#feature-branch-flow" onclick="event.stopPropagation()"></a></h4></div>
 <div id="main">
 <div>
-<p><strong><em>Feature branch</em> workflow is similar to forking workflow except there are no forks.</strong> Everyone is pushing/pulling from the same remote repo. The phrase <em>feature branch</em> is used because each new feature (or bug fix, or any other modification) is done in a separate branch and merged to the <code class="hljs inline no-lang" v-pre>master</code> branch when ready.</p>
+<p><strong><em>Feature branch</em> workflow is similar to forking workflow except there are no forks.</strong> Everyone is pushing/pulling from the same remote repo. The phrase <em>feature branch</em> is used because each new feature (or bug fix, or any other modification) is done in a separate branch and merged to the <code class="hljs inline no-lang" v-pre>master</code> branch when ready. Pull requests can still be created within the central repository, from the feature branch to the main branch.</p>
+<p>As this workflow require all team members to have write access to the repository,</p>
+<ul>
+<li>it is better to <em>protect</em> the main branch using some mechanism, to reduce the risk of accidental undesirable changes to it.</li>
+<li>it is not suitable for situations where the code contributors are not 'trusted' enough to be given write permission.</li></ul>
 <img src="/website/book/revisionControl/featureBranchFlow/images/diagram.png" height="330">
 <p></p></div>
 <div>
@@ -987,7 +993,13 @@ e.g.</p>
 <p><strong>After following the given workflow for at least <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., until the end of v1.2</span>one iteration</span>, optionally, you may adjust the process rigor</strong> to suit your team's pace. Here are some examples:</p>
 <ul>
 <li>
-<p><strong>Switch to a lighter workflow</strong>: While <em>forking workflow</em> is the safest (and is recommended), it is also rather heavy. You may switch to a simpler workflow if the forking workflow if you wish. Refer the textbook to find more about alternative workflows: <em>feature branches workflow</em> (a reasonable alternative, but if you choose this, make sure your master branch is <em>protected</em>), <em>centralized workflow</em> (discouraged). Even if you do switch, we still recommend that you use PR reviews, at least for PRs affecting others' features.</p></li>
+<p><strong>Switch to a lighter workflow</strong>:</p>
+<ul>
+<li>While <em>forking workflow</em> is the safest (and is recommended), it is also rather heavy. You may switch to a simpler workflow if the forking workflow if you wish. Refer the textbook to find more about <a href="/website/se-book-adapted/chapters/revisionControl.html">alternative workflows</a>:
+<ul>
+<li>The <em>feature branches</em> workflow: a reasonable alternative, but if you choose this, make sure your master branch is <em>protected</em> and most members have write access only (i.e., no admin access)</li>
+<li>The <em>centralized workflow</em>: discouraged.</li></ul></li>
+<li>Even if you do switch, we still recommend that you use PR reviews, at least for PRs affecting others' features.</li></ul></li>
 <li>
 <p><strong>Reduce automated tests</strong>: Automated tests have benefits, but they can be a pain to write/maintain.<br>
 It is OK to get rid of some of the troublesome tests and rely more on manual testing instead. The less automated tests you have, the higher the risk of regressions; but it may be an acceptable trade-off under the circumstances if tests are slowing you down too much.<br>
@@ -1028,7 +1040,7 @@ There is no requirement for a minimum coverage level. Note that in a production 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 19 Mar 2021, 17:08:59 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 20 Mar 2021, 0:56:16 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>
