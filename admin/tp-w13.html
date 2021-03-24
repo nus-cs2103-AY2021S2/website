@@ -150,7 +150,7 @@
 <div id="main">
 <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple">
 <ol>
-<li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Do final tweaks to the feature</span></li>
+<li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Do final polish-ups</span></li>
 <li><span><span><span aria-hidden="true" class="fas fa-user"></span></span><span><span aria-hidden="true" class="fas fa-users"></span></span> Submit deliverables</span> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Mon, Apr 12th 2359</span></span></li>
 <li><span><span><span aria-hidden="true" class="fas fa-users"></span></span> Wrap up the milestone</span> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Wed, Apr 14th 2359</span></span></li>
 <li><span><span><span aria-hidden="true" class="fas fa-users"></span></span> Submit the demo video</span> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Wed, Apr 14th 2359</span></span></li>
@@ -159,10 +159,12 @@
 <div id="body">
 <div></div>
 <p></p>
-<h4 id="1-do-final-tweaks-to-the-feature"><span id="1-do-final-tweaks-to-the-feature" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Do final tweaks to the feature</span><a class="fa fa-anchor" href="#1-do-final-tweaks-to-the-feature" onclick="event.stopPropagation()"></a></h4>
+<h4 id="1-do-final-polish-ups"><span id="1-do-final-polish-ups" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Do final polish-ups</span><a class="fa fa-anchor" href="#1-do-final-polish-ups" onclick="event.stopPropagation()"></a></h4>
 <div>
 <ul>
-<li>Do the final tweaks to the feature and the documentation. We strongly recommend not to do major changes to the product this close to the submission deadline.</li></ul></div>
+<li>Fix any remaining bugs.</li>
+<li>You may do minor cosmetic enhancements but adding features or doing major changes to features is not allowed at this stage.</li>
+<li>Improve testing, code quality, and documentation.</li></ul></div>
 <p></p>
 <h4 id="2-submit-deliverables-mon-apr-12th-2359"><span id="2-submit-deliverables-mon-apr-12th-2359" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span><span><span aria-hidden="true" class="fas fa-users"></span></span> Submit deliverables</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Mon, Apr 12th 2359</span></span><a class="fa fa-anchor" href="#2-submit-deliverables-mon-apr-12th-2359" onclick="event.stopPropagation()"></a></h4>
 <div>
@@ -652,7 +654,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>
 <p>Ensure you have access to a <strong>computer that is able to run module projects</strong> <span class="dimmed">e.g. has the right Java version</span>.</p></li>
 <li>
-<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer.</p></li></ul>
+<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer. You should have done this when you smoke-tested CATcher earlier in the week.</p></li></ul>
 <div class="indented-level2">
 <panel minimized class="algolia-no-index"><template slot="header"><p>If not using CATcher</p></template>
 <div id="not-using-catcher-warning">
@@ -683,9 +685,11 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <p></p></panel><p></p><p></p></div>
 <ul>
 <li>
-<p><strong>Have a good screen grab tool</strong> with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.</p>
-<ul>
-<li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.</li></ul></li>
+<p><strong>Have a good screen grab tool</strong> with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.<br>
+<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.</p></li>
+<li>
+<p><strong>[Optional] Have a good screen recording tool</strong> if you plan to use screen recording clips as part of your bug reports. Ensure that your screen recording tool can create small files as CATcher doesn't allow files bigger than 10Mb.<br>
+<span><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></span> As the CATcher support for uploading screen recordings is new and limited, use it only if strictly necessary -- use screenshots for other cases.</p></li>
 <li>
 <p><strong><span class="text-danger">Download the product to be tested</span></strong>.</p></li></ul>
 <tabs active="1" add-class="ml-4">
@@ -771,7 +775,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>
 <p>Ensure you have access to a <strong>computer that is able to run module projects</strong> <span class="dimmed">e.g. has the right Java version</span>.</p></li>
 <li>
-<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer.</p></li></ul>
+<p><strong>Download the <a href="https://github.com/CATcher-org/CATcher/releases">latest CATcher</a></strong> and ensure you can run it on your computer. You should have done this when you smoke-tested CATcher earlier in the week.</p></li></ul>
 <div class="indented-level2">
 <panel minimized class="algolia-no-index"><template slot="header"><p>If not using CATcher</p></template>
 <div id="not-using-catcher-warning">
@@ -802,9 +806,11 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <p></p></panel><p></p><p></p></div>
 <ul>
 <li>
-<p><strong>Have a good screen grab tool</strong> with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.</p>
-<ul>
-<li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.</li></ul></li>
+<p><strong>Have a good screen grab tool</strong> with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.<br>
+<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.</p></li>
+<li>
+<p><strong>[Optional] Have a good screen recording tool</strong> if you plan to use screen recording clips as part of your bug reports. Ensure that your screen recording tool can create small files as CATcher doesn't allow files bigger than 10Mb.<br>
+<span><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></span> As the CATcher support for uploading screen recordings is new and limited, use it only if strictly necessary -- use screenshots for other cases.</p></li>
 <li>
 <p><strong><span class="text-danger">Download the product to be tested</span></strong>.</p></li></ul>
 <tabs active="1" add-class="ml-4">
@@ -1499,7 +1505,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
 <a class="nav-link py-1" href="#tp-week-13-v1-4">tP week 13: v1.4 &#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#1-do-final-tweaks-to-the-feature">1  Do final tweaks to the feature&#x200E;</a>
+<a class="nav-link py-1" href="#1-do-final-polish-ups">1  Do final polish-ups&#x200E;</a>
 <a class="nav-link py-1" href="#2-submit-deliverables-mon-apr-12th-2359">2  Submit deliverables  Mon, Apr 12th 2359&#x200E;</a>
 <a class="nav-link py-1" href="#3-wrap-up-the-milestone-wed-apr-14th-2359">3  Wrap up the milestone  Wed, Apr 14th 2359&#x200E;</a>
 <a class="nav-link py-1" href="#4-submit-the-demo-video-wed-apr-14th-2359">4  Submit the demo video  Wed, Apr 14th 2359&#x200E;</a>
@@ -1514,7 +1520,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 20 Mar 2021, 0:56:16 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Wed, 24 Mar 2021, 16:21:46 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>
