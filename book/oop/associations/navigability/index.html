@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS2103/T - Object Oriented Programming: Associations: Navigability</title>
+    <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../markbind/css/bootstrap-vue.min.css">
+    <link rel="stylesheet" href="../../../../markbind/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../../../../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+    <link rel="stylesheet" href="../../../../markbind/css/octicons.css">
+    <link rel="stylesheet" href="../../../../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../../../../markbind/css/markbind.min.css"><script src="../../../../markbind/js/polyfill.min.js"></script>
+    <script src="../../../../markbind/js/vue.min.js"></script>
+    <script src="../../../../markbind/js/markbind.min.js"></script>
+    <script src="../../../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../../../markbind/layouts/default/styles.css"><link rel="icon" href="/website/favicon.ico"></head>
+<body >
+<div id="app">
+    <div id="flex-body">
+        <div id="content-wrapper">
+<div>
+<link rel="stylesheet" href="/website/book/css/textbook.css">
+<div class="website-content">
+<p><span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the meaning of navigability</span></span></span></span></p><p></p><p></p>
+<p></p>
+<div>
+<div></div><p></p>
+<p><span class="dimmed"><strong><span>Paradigms → OOP → Associations →
+</span></strong></span></p>
+<div id="title-and-body">
+<div><h4 id="navigability"><span id="navigability" class="anchor"></span><span>Navigability</span><a class="fa fa-anchor" href="#navigability" onclick="event.stopPropagation()"></a></h4></div>
+<div id="main">
+<div>
+<p>When two classes are linked by an association, it does not necessarily mean the two objects taking part in an instance of the association <em>knows about</em> (i.e., has a reference to) each other. <strong>The concept of which object in the association knows about the other object is called <em>navigability</em>.</strong></p>
+<p><strong>Navigability can be <em>unidirectional</em> or <em>bidirectional</em></strong>. Suppose there is an association between the classes <code class="hljs inline no-lang" v-pre>Box</code> and <code class="hljs inline no-lang" v-pre>Rope</code>, and the <code class="hljs inline no-lang" v-pre>Box</code> object <code class="hljs inline no-lang" v-pre>b</code> and the <code class="hljs inline no-lang" v-pre>Rope</code> object <code class="hljs inline no-lang" v-pre>r</code> is taking part in one instance of that association.</p>
+<ul>
+<li><strong>Unidirectional</strong>: If the navigability is from <code class="hljs inline no-lang" v-pre>Box</code> to <code class="hljs inline no-lang" v-pre>Rope</code>, <code class="hljs inline no-lang" v-pre>b</code> will have a reference to <code class="hljs inline no-lang" v-pre>r</code> but <code class="hljs inline no-lang" v-pre>r</code> will not have a reference to <code class="hljs inline no-lang" v-pre>b</code>. Similarly, if the navigability is in the other direction, <code class="hljs inline no-lang" v-pre>r</code> will have a reference to <code class="hljs inline no-lang" v-pre>b</code> but <code class="hljs inline no-lang" v-pre>b</code> will not have a reference to <code class="hljs inline no-lang" v-pre>r</code>.</li>
+<li><strong>Bidirectional</strong>: <code class="hljs inline no-lang" v-pre>b</code> will have a reference to <code class="hljs inline no-lang" v-pre>r</code> and <code class="hljs inline no-lang" v-pre>r</code> will have a reference to <code class="hljs inline no-lang" v-pre>b</code> i.e., the two objects will be pointing to each other.</li></ul></div>
+<div></div></div></div></div></div></div>
+<i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></div>
+        </div>
+    </div>
+</body>
+<script src="../../../../markbind/js/bootstrap-utility.min.js"></script>
+<script>
+  const baseUrl = '/website'
+  MarkBind.setup()
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script>
+    function initAlgolia() {
+      docsearch({
+        apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+        indexName: "nus-cs2103-ay1920s1",
+        inputSelector: "#algolia-search-input",
+        algoliaOptions: {"hitsPerPage":10},
+        debug: false,
+      });
+    }
+    initAlgolia();
+  </script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-122519234-1');
+    </script>
+<script src="../../../../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
+</html>
