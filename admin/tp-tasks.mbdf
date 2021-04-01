@@ -1016,6 +1016,8 @@ Also see:
 * **After you have sufficient code coverage, fix remaining code quality problems** and bring up the quality to your target level.
 
 {{ embed_topic("tp-grading.md#projectGrading-codeQuality-criteria", "Admin " + icon_embedding + " tP → Grading → **Code Quality Tips**", "3", indent="2") }}
+
+* As before, you may split this milestone into smaller iterations if you wish e.g., `{{ version_final }}`, `{{ version_final }}b`, ...
 </span>
 {#====================================================================================================================#}
 <span id="heading_draft_the_ppp">{{ icon_individual }} Draft the PPP</span>
@@ -1117,7 +1119,7 @@ Not applicable this semester
 </div>
 
 * {{ icon_team }} **Product**:
-  * Do a release on GitHub, tagged as `{{ version_final }}`.
+  * Do a release on GitHub, tagged appropriately e.g., `{{ version_final }}` or `{{ version_final }}b`.
   * Upload the jar file to LumiNUS.<br>
     File name: `[team ID][product name].jar` %%e.g. [{{ example_team_id }}][Contacts Plus].jar%%
 
