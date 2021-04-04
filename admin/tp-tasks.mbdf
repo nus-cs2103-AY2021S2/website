@@ -556,9 +556,9 @@ Update the following pages in your project repo:
 
 * {{ icon_important_big_red }} **From this point onwards each member is expected to contribute <tooltip content="the amount of code does not matter; even small contributions are acceptable">some</tooltip> code to each <tooltip content="{{ version_penultimate }}, {{ version_final }}"> milestone</tooltip>, preferably each week; only merged code is considered as contributions** %%<popover content="The ability to deliver code incrementally is an important learning outcome of this module because incremental delivery, among other things, improves the _visibility_ of your work.">(Reason)</popover>%%.
 
-* **If you plan to rename the code packages**, you may want to do it around this time. Doing it later can be more difficult, and can cause problems in our code authorship tracking. Also note that renaming packages is optional.
+* ==**If you plan to rename the code packages**==, you may want to do it around this time. Doing it later can be more difficult %%(e.g., it can cause more merge conflicts)%%, and can cause problems in our code authorship tracking. Also note that renaming packages is optional.
 
-* **Note: you are required to follow the forking workflow** for at least the first part of this iteration:
+* **Note: you are required to follow the forking workflow** for at least for the first part of this iteration:
 {{ embed_topic("appendixE-gitHub.md#workflow-before-v11", "Admin " + icon_embedding + " Appendix E(extract): **Workflow**", "3", indent="2") }}
 </span>
 {#====================================================================================================================#}
@@ -669,7 +669,7 @@ In addition,
 
 <box type="info" seamless>
 
-**Improve upon AB3, design, code, test etc.**{.text-info} While not very 'buggy', AB3 is not 'perfect' either (it is not meant to be a 'model solution'). Feel free to improve it in any way you see fit. In particular, find and fix any bugs it may have. If you are not sure if something is a bug or an intended behavior, you can post in the forum to check.<br>
+**Improve upon AB3, design, code, test etc.**{.text-info} While not very 'buggy', AB3 is not 'perfect' either (it is not meant to be a 'model solution'). Feel free to improve it in any way you see fit. In particular, ==find and fix any bugs it has==. If you are not sure if something is a bug or an intended behavior, you can post in the forum to check.<br>
 While we are on the topic, also note that the architecture of AB3 doesn't suite every kind of application either. As you gain more experience in other application domains, you will learn different types of architectures that you can add to the collection of different architectures that you can consider for future projects. The same goes for the tool chain and the tech stack of AB3. Therefore, **do not be tempted to apply AB3 as a template for every other application you come across in the future**.
 </box>
 </div>
