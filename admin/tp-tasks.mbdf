@@ -998,6 +998,10 @@ Also see:
 {{ icon_x_red }} <span class="text-danger">**Not allowed in {{ version_final }}:**</span> adding features or doing major changes to existing features.
 
 **The goal of freezing features in the pre-release iteration** is to subject the features to at least one round of intensive non-dev testing before they are released to the users. In a real project, minor or critical changes might be allowed even near a deadline -- but here, we do not allow _any_ feature changes because it can start us on a slippery slope and many "is this change allowed?" queries. Therefore, {{ version_final }} should not have _any_ features that was not already tested in the PE-D).
+
+FAQs:
+* Q: Can we add a missing validity check for a user input?<br>
+  A: Yes, if its absence causes the software to mis-behave (i.e., it's omission can be considered a bug).
 </box>
 </div>
 
