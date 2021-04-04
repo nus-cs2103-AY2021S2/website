@@ -201,7 +201,9 @@ Report as many bugs as you can find during the given time. Take longer if you ne
 * **You can navigate to the original bug report** (via the back-link provided in the bug report given to you) and post in that issue thread to communicate with the tester who reported the bug %%e.g. to ask for more info%%, etc. However, the tester is not obliged to respond. Note that simply replying to the bug report in your own repo will not notify the tester.
   * {{ icon_tip }} Do not argue with the tester to try to convince that person that your way is correct/better. If at all, you can gently explain the rationale for the current behavior but do not waste time getting involved in long arguments. If you think the suggestion/bug is unreasonable, just thank the tester for their view and discontinue to discussion.
 * **==If a bug report received is not useful at all, add the `invalid` label to it==** (add that label if it doesn't exist in your issue tracker). We will not count such bugs when giving credit to testers.<br>
-  As for the other bug reports, you can deal with them as you see fit (i.e., triage, apply labels, assign, close etc.).
+  As for the other bug reports, you can deal with them as you see fit (i.e., triage, apply labels, assign, close etc.).{% if cs2103 or tic4002 %}
+* **If a bug report is simply a feature suggestion**, you can either ignore it (i.e., leave it to be considered in a future version beyond v1.4) or close it (to reduce clutter in the issue tracker).{% endif %}
+
 
 <box type="wrong" seamless>
 
