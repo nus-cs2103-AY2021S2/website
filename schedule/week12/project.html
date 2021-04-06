@@ -1306,10 +1306,13 @@ However, a product is allowed to have 'known limitations' <span class="dimmed">(
 <span style="color:green"><span><span aria-hidden="true" class="fas fa-check"></span></span></span> removing features</p>
 <p><span style="color:red"><span><span aria-hidden="true" class="fas fa-times"></span></span></span> <span class="text-danger"><strong>Not allowed in v1.4:</strong></span> adding features or doing major changes to existing features.</p>
 <p><strong>The goal of freezing features in the pre-release iteration</strong> is to subject the features to at least one round of intensive non-dev testing before they are released to the users. In a real project, minor or critical changes might be allowed even near a deadline -- but here, we do not allow <em>any</em> feature changes because it can start us on a slippery slope and many &quot;is this change allowed?&quot; queries. Therefore, v1.4 should not have <em>any</em> features that was not already tested in the PE-D).</p>
-<p>FAQs:</p>
+<p><strong>FAQs:</strong></p>
 <ul>
-<li>Q: Can we add a missing validity check for a user input?<br>
-A: Yes, if its absence causes the software to mis-behave (i.e., it's omission can be considered a bug).
+<li><strong>Q:</strong> Can we add a missing validity check for a user input?<br>
+<strong>A:</strong> Yes, but only if its absence causes the software to mis-behave (i.e., it's omission can be considered a bug).</li>
+<li><strong>Q:</strong> Testers have reported a missing feature (or a feature suggestion). Can we add it?<br>
+<strong>A:</strong> Most teams receive such suggestions from testers as we allow feature suggestions in PE-D (but they are not allowed in the PE). You can use those suggestions when you envision future versions of the product (i.e., beyond v1.4 -- to improve your product design skills. But for now, focus on fixing bugs, and perfecting other aspects such as testing, documentation, code quality.<br>
+Also note that given there's a feature freeze in v1.4, some lower-priority features can be argued as out-of-scope if there were other higher priority features that took up the available time in previous versions. Every team has to draw the line somewhere as there wasn't a lot of time to implement features.
 </li></ul></box></div>
 <ul>
 <li>Follow the procedure for dealing with PED bugs you received:</li></ul>
@@ -1732,7 +1735,7 @@ e.g.</p>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sun, 4 Apr 2021, 23:33:30 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Tue, 6 Apr 2021, 10:12:18 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
