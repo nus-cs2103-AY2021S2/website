@@ -252,11 +252,12 @@
 <li><code class="hljs inline no-lang" v-pre>[M48] John Doe</code> (<code class="hljs inline no-lang" v-pre>M18</code> is the seat number)</li>
 <li><code class="hljs inline no-lang" v-pre>[M48][PC] John Doe</code> (for the PC, if using a phone as well)</li></ul></li>
 <li><strong>Set your camera</strong> so that <em>all</em> the following are visible:
-<ul>
-<li>your head (side view)</li>
-<li>the computer screen</li>
-<li>the work area (i.e., the table top)<br>
-<img src="/website/admin/images/zoomCameraExample.png" width="362"></li></ul></li></ul></li>
+<ol>
+<li>your face (side view, <mark>no mask</mark>)</li>
+<li>your hands</li>
+<li>the work area (i.e., the table top)</li>
+<li>the computer screen<br>
+<img src="/website/admin/images/zoomCameraExample.png" width="362"></li></ol></li></ul></li>
 <li><strong>Join the Zoom waiting room <mark>15-30 minutes before the start time</mark>.</strong> Admitting you to the Zoom session can take some time.</li>
 <li><strong>In case of Zoom outage</strong>, we'll fall back on MS Teams (MST). Make sure you have MST running and have joined the <a href="https://teams.microsoft.com/l/team/19%3a6ac468d3601d448a89069f389d42d6f7%40thread.tacv2/conversations?groupId=29cec2b3-fc09-4b75-b6f1-faabdf41dbf4&amp;tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82">MST Team for the class</a>.</li>
 <li><strong>Recording the screen is not required.</strong></li>
@@ -264,15 +265,15 @@
 <li><strong><mark>Only one screen</mark> is allowed.</strong> If you want to use the secondary monitor, you should switch off the primary monitor. The screen being used should be fully visible in the Zoom camera view.</li>
 <li><strong>Do not use the public chat channel to ask questions</strong> from the prof. If you do, you might accidentally reveal which team you are testing.</li>
 <li><strong>Do not use more than one CATcher instance</strong> at the same time. Our grading scripts will red-flag you if you use multiple CATcher instances in parallel.</li>
-<li><strong>Use MS Teams (not Zoom) private messages to communicate with the prof.</strong> Fall back on Zoom chat only if you didn't receive a reply via MST.</li>
+<li><strong>Use MS Teams (not Zoom) private messages to communicate with the prof.</strong> Zoom sessions are invigilated by tutors, not the prof.</li>
 <li><strong>Do not view video Zoom feeds of others</strong> while the testing is ongoing. Keep the video view minimized.</li>
 <li><strong>During the bug reporting periods (i.e., <span class="badge badge-success">PE Phase 1 - part I</span> and <span class="badge badge-success">PE Phase 1 - part II</span>), do not use websites/software not in the list given below.</strong> <mark>In particular, do not visit GitHub</mark>. However, you are allowed to visit pages linked in the UG/DG for the purpose of checking if the link is correct. If you need to visit a different website or use another software, please ask for permission first.
 <ul>
 <li>Website: LumiNUS</li>
 <li>Website: Module website <span class="dimmed">(e.g., to look up PE info)</span></li>
-<li>Software: CATcher, any text editor, any screen grab software</li>
+<li>Software: CATcher, any text editor, any screen grab/recording software</li>
 <li>Software: PDF reader <span class="dimmed">(to read the UG/DG or other references such as the textbook)</span></li></ul></li>
-<li><strong>Do not use any other software running</strong> in the background e.g., Telegram chat</li>
+<li><strong>Do not use any other software running</strong> in the background e.g., Telegram chat.</li>
 <li><strong>This is a <em>manual</em> testing session</strong>. Do not use any test automation tools or custom scripts.</li></ul></box>
 <ul>
 <li><strong>When, where</strong>: Week 13 lecture slot. Use the same Zoom link used for the regular lecture.</li></ul>
@@ -1281,7 +1282,7 @@ Reminder: There is no penalty for any of the bugs you received in the PE-D.</li>
 <li><s><strong><mark>If a bug report received is not useful <em>at all</em></mark></strong> (i.e., it looks like the tester submitted some random rubbish to increase the bug count), add the <code class="hljs inline no-lang" v-pre>invalid</code> label to it (add that label if it doesn't exist in your issue tracker). We will not count such bugs when giving credit to testers.</s> If you receive 'insincere' bug reports that seem like just an attempt to increase the tester's bug count, please let us know.<br>
 As for the other bug reports, you can deal with them as you see fit (i.e., triage, apply labels, assign, close etc.).<br></li>
 <li><strong>You may ignore <code class="hljs inline no-lang" v-pre>type/severity.*</code> labels given by the tester.</strong> They will not affect you or the tester either way -- they were there just for the testers to practice. You may apply your own type/severity labels if you wish.</li>
-<li><strong>If a bug report is simply a feature suggestion</strong>, you can either ignore it (i.e., leave it to be considered in a future version beyond v1.4) or close it (to reduce clutter in the issue tracker).</li></ul>
+<li><strong>If a bug report is simply a feature suggestion</strong>, you can take note of it and close it (to reduce clutter in the issue tracker, and to make it easy for the teaching team to track your progress on dealing with PE-D issues). Similarly, you can close PE-D issues not relevant to v1.3.</li></ul>
 <box type="wrong" seamless>
 <p><strong>Note that listing bugs as 'known bugs' in the UG or specifying <em>unreasonable</em> constraints in the UG to make bugs 'out of scope' will not exempt those bugs from the final grading.</strong> That is, PE testers can still earn credit for reporting those bugs and you will still be penalized for them.<br>
 However, a product is allowed to have 'known limitations' <span class="dimmed">(e.g., a daily expense tracking application meant for students is unable to handle expenses larger than $999)</span> as long as they don't degrade the product's use within the intended scope. They will not be penalized.
@@ -1330,7 +1331,7 @@ Reminder: There is no penalty for any of the bugs you received in the PE-D.</li>
 <li><s><strong><mark>If a bug report received is not useful <em>at all</em></mark></strong> (i.e., it looks like the tester submitted some random rubbish to increase the bug count), add the <code class="hljs inline no-lang" v-pre>invalid</code> label to it (add that label if it doesn't exist in your issue tracker). We will not count such bugs when giving credit to testers.</s> If you receive 'insincere' bug reports that seem like just an attempt to increase the tester's bug count, please let us know.<br>
 As for the other bug reports, you can deal with them as you see fit (i.e., triage, apply labels, assign, close etc.).<br></li>
 <li><strong>You may ignore <code class="hljs inline no-lang" v-pre>type/severity.*</code> labels given by the tester.</strong> They will not affect you or the tester either way -- they were there just for the testers to practice. You may apply your own type/severity labels if you wish.</li>
-<li><strong>If a bug report is simply a feature suggestion</strong>, you can either ignore it (i.e., leave it to be considered in a future version beyond v1.4) or close it (to reduce clutter in the issue tracker).</li></ul>
+<li><strong>If a bug report is simply a feature suggestion</strong>, you can take note of it and close it (to reduce clutter in the issue tracker, and to make it easy for the teaching team to track your progress on dealing with PE-D issues). Similarly, you can close PE-D issues not relevant to v1.3.</li></ul>
 <box type="wrong" seamless>
 <p><strong>Note that listing bugs as 'known bugs' in the UG or specifying <em>unreasonable</em> constraints in the UG to make bugs 'out of scope' will not exempt those bugs from the final grading.</strong> That is, PE testers can still earn credit for reporting those bugs and you will still be penalized for them.<br>
 However, a product is allowed to have 'known limitations' <span class="dimmed">(e.g., a daily expense tracking application meant for students is unable to handle expenses larger than $999)</span> as long as they don't degrade the product's use within the intended scope. They will not be penalized.
@@ -1735,7 +1736,7 @@ e.g.</p>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Tue, 6 Apr 2021, 10:12:18 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 8 Apr 2021, 17:42:06 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
