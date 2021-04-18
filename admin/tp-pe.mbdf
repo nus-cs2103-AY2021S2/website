@@ -387,13 +387,12 @@ Duplicate of #67
 <tabs>
 <tab header="Using CATcher">
 
-* When the phase has been announced as open, login to CATcher as usual (profile: `{{ module_pair }} PE`).<br>
-  {{ icon_info }} You may use [the latest version of CATcher](https://github.com/CATcher-org/CATcher/releases) or the [Web version of CATcher](http://catcher-org.github.io/webapp).
+* When the phase has been announced as open, login to [CATcher](https://catcher-org.github.io/CATcher) as usual (profile: `{{ module_pair }} PE`).
 * For each issues listed in the `Issues Pending Responses` section:
   * Click on it to go to the details, and read the dev team's response.
   * If you disagree with any of the items listed, tick on the `I disagree` tick box and enter your justification for the disagreement, and click `Save`.
   * If you are fine with the team's changes, click `Save` without any other changes upon which the issue will move to the `Issue Responded` section.
-* Note that only bugs that require your response will be shown by CATcher. **Bugs already accepted _as reported_ by the team will not appear in CATcher** as there is nothing for you to do about them.
+* Note that ==only bugs that require your response will be shown by CATcher==. Bugs the team accepted _exactly as you reported them_ (i.e., no change to type or severity) will not appear in CATcher as there is nothing for you to do about them.
 
 </tab>
 <tab header="Not using CATcher">

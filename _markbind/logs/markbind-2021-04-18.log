@@ -1,0 +1,42 @@
+2021-04-18T14:01:49.583Z - info: Website generation (lazy) started at 10:01:41 PM
+2021-04-18T14:02:00.830Z - info: Building assets...
+2021-04-18T14:02:07.427Z - info: Assets built
+2021-04-18T14:02:07.428Z - info: Generating landing page...
+2021-04-18T14:02:08.803Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-04-18T14:02:09.404Z - info: Site data built
+2021-04-18T14:02:09.405Z - info: Website generation (lazy) complete! Total build time: 28.28s
+2021-04-18T14:02:10.342Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-04-18T14:02:10.342Z - info: Press CTRL+C to stop ...
+2021-04-18T14:02:41.983Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\index as some of its dependencies were changed since the last visit
+2021-04-18T14:02:42.725Z - info: Site data built
+2021-04-18T14:02:42.726Z - info: Lazy website regeneration complete! Total build time: 0.743s
+2021-04-18T14:02:49.550Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2021-04-18T14:02:51.204Z - info: Site data built
+2021-04-18T14:02:51.205Z - info: Lazy website regeneration complete! Total build time: 1.656s
+2021-04-18T14:05:28.652Z - info: [10:05:28 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-18T14:05:29.669Z - info: Rebuilding 1 pages
+2021-04-18T14:05:31.849Z - info: Site data built
+2021-04-18T14:05:31.851Z - info: Pages rebuilt
+2021-04-18T14:05:31.852Z - info: Website regeneration complete! Total build time: 2.189s
+2021-04-18T14:05:52.123Z - info: [10:05:52 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-18T14:05:53.129Z - info: Rebuilding 1 pages
+2021-04-18T14:05:54.917Z - info: Site data built
+2021-04-18T14:05:54.918Z - info: Pages rebuilt
+2021-04-18T14:05:54.918Z - info: Website regeneration complete! Total build time: 1.793s
+2021-04-18T14:06:41.191Z - info: [10:06:41 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-18T14:06:42.210Z - info: Rebuilding 1 pages
+2021-04-18T14:06:44.228Z - info: Site data built
+2021-04-18T14:06:44.231Z - info: Pages rebuilt
+2021-04-18T14:06:44.231Z - info: Website regeneration complete! Total build time: 2.032s
+2021-04-18T14:07:39.633Z - info: [10:07:39 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-18T14:07:40.666Z - info: Rebuilding 1 pages
+2021-04-18T14:07:42.850Z - info: Site data built
+2021-04-18T14:07:42.851Z - info: Pages rebuilt
+2021-04-18T14:07:42.851Z - info: Website regeneration complete! Total build time: 2.189s
+2021-04-18T14:08:00.521Z - info: [10:08:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-18T14:08:01.528Z - info: Rebuilding 1 pages
+2021-04-18T14:08:03.174Z - info: Site data built
+2021-04-18T14:08:03.174Z - info: Pages rebuilt
+2021-04-18T14:08:03.174Z - info: Website regeneration complete! Total build time: 1.65s
+2021-04-18T14:08:41.849Z - info: Website generation started at 10:08:38 PM
+2021-04-18T14:08:52.777Z - info: Building assets...
