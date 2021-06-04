@@ -1,0 +1,37 @@
+2021-06-04T14:50:05.034Z - info: Website generation (lazy) started at 10:50:00 pm
+2021-06-04T14:50:11.982Z - info: Building assets...
+2021-06-04T14:50:16.725Z - info: Assets built
+2021-06-04T14:50:16.726Z - info: Generating landing page...
+2021-06-04T14:50:17.607Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T14:50:18.674Z - info: Site data built
+2021-06-04T14:50:18.674Z - info: Website generation (lazy) complete! Total build time: 17.754s
+2021-06-04T14:50:19.642Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T14:50:19.642Z - info: Press CTRL+C to stop ...
+2021-06-04T14:51:06.220Z - info: [10:51:06 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T14:51:07.342Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T14:51:07.347Z - info: Rebuilding 1 pages
+2021-06-04T14:51:07.872Z - info: Site data built
+2021-06-04T14:51:07.873Z - info: Pages rebuilt
+2021-06-04T14:51:07.873Z - info: Website regeneration complete! Total build time: 0.63s
+2021-06-04T14:52:15.724Z - info: Website generation (lazy) started at 10:52:13 pm
+2021-06-04T14:52:20.009Z - info: Building assets...
+2021-06-04T14:52:23.258Z - info: Assets built
+2021-06-04T14:52:23.258Z - info: Generating landing page...
+2021-06-04T14:52:23.844Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T14:52:24.355Z - info: Site data built
+2021-06-04T14:52:24.355Z - info: Website generation (lazy) complete! Total build time: 10.874s
+2021-06-04T14:52:25.092Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T14:52:25.092Z - info: Press CTRL+C to stop ...
+2021-06-04T14:53:20.418Z - info: [10:53:20 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T14:53:21.444Z - info: Rebuilding 1 pages
+2021-06-04T14:53:22.018Z - info: Site data built
+2021-06-04T14:53:22.019Z - info: Pages rebuilt
+2021-06-04T14:53:22.019Z - info: Website regeneration complete! Total build time: 0.578s
+2021-06-04T14:53:40.585Z - info: [10:53:40 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T14:53:41.689Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T14:53:41.693Z - info: Rebuilding 1 pages
+2021-06-04T14:53:42.181Z - info: Site data built
+2021-06-04T14:53:42.183Z - info: Pages rebuilt
+2021-06-04T14:53:42.183Z - info: Website regeneration complete! Total build time: 0.585s
+2021-06-04T14:56:12.671Z - info: Website generation started at 10:56:10 pm
+2021-06-04T14:56:18.590Z - info: Building assets...
