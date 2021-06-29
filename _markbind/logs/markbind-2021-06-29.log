@@ -2620,3 +2620,192 @@ Missing reference in C:\repos\nus-cs2103\cs2103-website-base\_markbind\layouts\b
 2021-06-29T05:38:29.358Z - info: Website regeneration complete! Total build time: 0.557s
 2021-06-29T05:42:33.469Z - info: Website generation started at 1:42:31 pm
 2021-06-29T05:42:39.636Z - info: Building assets...
+2021-06-29T05:42:45.249Z - info: Assets built
+2021-06-29T05:42:45.249Z - info: Generating pages...
+2021-06-29T05:42:53.251Z - debug:  
+2021-06-29T05:42:53.252Z - debug:  
+2021-06-29T05:42:53.252Z - debug:  
+2021-06-29T05:42:53.252Z - debug:  
+2021-06-29T05:42:53.253Z - debug:  
+2021-06-29T05:42:53.253Z - debug:  
+2021-06-29T05:44:44.865Z - debug:  
+2021-06-29T05:44:55.397Z - debug:  
+2021-06-29T05:44:55.540Z - debug:  
+2021-06-29T05:45:01.010Z - info: Pages built
+2021-06-29T05:45:01.789Z - info: Site data built
+2021-06-29T05:45:01.789Z - info: Website generation complete! Total build time: 150.187s
+2021-06-29T05:45:01.789Z - info: Build success!
+2021-06-29T05:45:13.972Z - info: Deployed at https://nus-cs2103-ay2021s2.github.io/website!
+2021-06-29T05:51:18.477Z - info: Website generation (lazy) started at 1:51:14 pm
+2021-06-29T05:51:22.824Z - info: Building assets...
+2021-06-29T05:51:26.769Z - info: Assets built
+2021-06-29T05:51:26.769Z - info: Generating landing page...
+2021-06-29T05:51:27.291Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-29T05:51:27.932Z - info: Site data built
+2021-06-29T05:51:27.932Z - info: Website generation (lazy) complete! Total build time: 13.255s
+2021-06-29T05:51:28.586Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-29T05:51:28.586Z - info: Press CTRL+C to stop ...
+2021-06-29T05:52:04.834Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\moduleExpectations as some of its dependencies were changed since the last visit
+2021-06-29T05:52:05.137Z - info: Site data built
+2021-06-29T05:52:05.138Z - info: Lazy website regeneration complete! Total build time: 0.305s
+2021-06-29T05:52:19.287Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations as some of its dependencies were changed since the last visit
+2021-06-29T05:52:19.774Z - info: Site data built
+2021-06-29T05:52:19.775Z - info: Lazy website regeneration complete! Total build time: 0.488s
+2021-06-29T05:53:25.226Z - info: [1:53:25 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:53:25.227Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:53:25.227Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:53:25.227Z - info: 1. admin/tp-expectations
+2021-06-29T05:53:26.235Z - info: Rebuilding 1 pages
+2021-06-29T05:53:26.725Z - info: Site data built
+2021-06-29T05:53:26.726Z - info: Pages rebuilt
+2021-06-29T05:53:26.726Z - info: Website regeneration complete! Total build time: 0.493s
+2021-06-29T05:53:37.185Z - info: [1:53:37 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:53:37.185Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:53:37.185Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:53:37.185Z - info: 1. admin/tp-expectations
+2021-06-29T05:53:38.205Z - info: Rebuilding 1 pages
+2021-06-29T05:53:38.537Z - info: Site data built
+2021-06-29T05:53:38.537Z - info: Pages rebuilt
+2021-06-29T05:53:38.538Z - info: Website regeneration complete! Total build time: 0.335s
+2021-06-29T05:53:55.552Z - info: [1:53:55 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:53:55.552Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:53:55.552Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:53:55.552Z - info: 1. admin/tp-expectations
+2021-06-29T05:53:56.556Z - info: Rebuilding 1 pages
+2021-06-29T05:53:56.845Z - info: Site data built
+2021-06-29T05:53:56.846Z - info: Pages rebuilt
+2021-06-29T05:53:56.846Z - info: Website regeneration complete! Total build time: 0.292s
+2021-06-29T05:54:24.319Z - info: [1:54:24 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:54:24.320Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:54:24.320Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:54:24.320Z - info: 1. admin/tp-expectations
+2021-06-29T05:54:25.333Z - info: Rebuilding 1 pages
+2021-06-29T05:54:25.577Z - info: Site data built
+2021-06-29T05:54:25.577Z - info: Pages rebuilt
+2021-06-29T05:54:25.577Z - info: Website regeneration complete! Total build time: 0.244s
+2021-06-29T05:54:32.131Z - info: [1:54:32 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:54:32.132Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:54:32.132Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:54:32.132Z - info: 1. admin/tp-expectations
+2021-06-29T05:54:33.145Z - info: Rebuilding 1 pages
+2021-06-29T05:54:33.375Z - info: Site data built
+2021-06-29T05:54:33.375Z - info: Pages rebuilt
+2021-06-29T05:54:33.375Z - info: Website regeneration complete! Total build time: 0.232s
+2021-06-29T05:54:36.366Z - info: [1:54:36 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:54:36.366Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:54:36.366Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:54:36.366Z - info: 1. admin/tp-expectations
+2021-06-29T05:54:37.383Z - info: Rebuilding 1 pages
+2021-06-29T05:54:37.584Z - info: Site data built
+2021-06-29T05:54:37.584Z - info: Pages rebuilt
+2021-06-29T05:54:37.584Z - info: Website regeneration complete! Total build time: 0.203s
+2021-06-29T05:54:44.929Z - info: [1:54:44 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:54:44.930Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:54:44.930Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:54:44.930Z - info: 1. admin/tp-expectations
+2021-06-29T05:54:45.941Z - info: Rebuilding 1 pages
+2021-06-29T05:54:46.152Z - info: Site data built
+2021-06-29T05:54:46.152Z - info: Pages rebuilt
+2021-06-29T05:54:46.152Z - info: Website regeneration complete! Total build time: 0.212s
+2021-06-29T05:55:11.052Z - info: [1:55:11 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:55:11.052Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:55:11.052Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:55:11.052Z - info: 1. admin/tp-expectations
+2021-06-29T05:55:12.058Z - info: Rebuilding 1 pages
+2021-06-29T05:55:12.540Z - info: Site data built
+2021-06-29T05:55:12.540Z - info: Pages rebuilt
+2021-06-29T05:55:12.540Z - info: Website regeneration complete! Total build time: 0.483s
+2021-06-29T05:55:24.747Z - info: [1:55:24 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:55:24.747Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:55:24.747Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:55:24.747Z - info: 1. admin/tp-expectations
+2021-06-29T05:55:25.765Z - info: Rebuilding 1 pages
+2021-06-29T05:55:26.061Z - info: Site data built
+2021-06-29T05:55:26.061Z - info: Pages rebuilt
+2021-06-29T05:55:26.061Z - info: Website regeneration complete! Total build time: 0.297s
+2021-06-29T05:55:50.839Z - info: [1:55:50 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:55:50.840Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:55:50.840Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:55:50.840Z - info: 1. admin/tp-expectations
+2021-06-29T05:55:51.849Z - info: Rebuilding 1 pages
+2021-06-29T05:55:52.166Z - info: Site data built
+2021-06-29T05:55:52.166Z - info: Pages rebuilt
+2021-06-29T05:55:52.167Z - info: Website regeneration complete! Total build time: 0.319s
+2021-06-29T05:55:55.845Z - info: [1:55:55 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:55:55.845Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:55:55.845Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:55:55.845Z - info: 1. admin/tp-expectations
+2021-06-29T05:55:56.847Z - info: Rebuilding 1 pages
+2021-06-29T05:55:57.063Z - info: Site data built
+2021-06-29T05:55:57.063Z - info: Pages rebuilt
+2021-06-29T05:55:57.063Z - info: Website regeneration complete! Total build time: 0.217s
+2021-06-29T05:55:59.546Z - info: [1:55:59 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:55:59.546Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:55:59.546Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:55:59.547Z - info: 1. admin/tp-expectations
+2021-06-29T05:56:00.553Z - info: Rebuilding 1 pages
+2021-06-29T05:56:00.799Z - info: Site data built
+2021-06-29T05:56:00.799Z - info: Pages rebuilt
+2021-06-29T05:56:00.799Z - info: Website regeneration complete! Total build time: 0.248s
+2021-06-29T05:56:03.023Z - info: [1:56:03 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T05:56:03.023Z - info: Synchronizing opened pages list before reload
+2021-06-29T05:56:03.023Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T05:56:03.023Z - info: 1. admin/tp-expectations
+2021-06-29T05:56:04.034Z - info: Rebuilding 1 pages
+2021-06-29T05:56:04.226Z - info: Site data built
+2021-06-29T05:56:04.226Z - info: Pages rebuilt
+2021-06-29T05:56:04.226Z - info: Website regeneration complete! Total build time: 0.193s
+2021-06-29T06:19:16.562Z - info: [2:19:16 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T06:19:16.562Z - info: Synchronizing opened pages list before reload
+2021-06-29T06:19:16.562Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T06:19:16.563Z - info: 1. admin/tp-expectations
+2021-06-29T06:19:17.582Z - info: Rebuilding 1 pages
+2021-06-29T06:19:17.712Z - error:  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md) [Line 62, Column 14]
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md) [Line 118, Column 9]
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md) [Line 35, Column 52]
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md) [Line 70, Column 65]
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  Template render error: (C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md)
+  TypeError: Cannot read property 'replace' of undefined
+    at Object._prettifyError (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:144:3)
+    at Template.render (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:54:25
+    at createTemplate (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\load-event.js:121:7)
+    at handle (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\load-event.js:133:9)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\load-event.js:145:7
+    at next (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:326:7)
+    at Object.asyncIter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:332:3)
+    at Environment.getTemplate (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\load-event.js:127:7)
+    at Environment.render (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:59:20)
+    at VariableProcessor.renderWithSiteVariables (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:469:37)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1122:20
+2021-06-29T06:19:17.712Z - warn:  Error: Error while generating undefined
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1130:15
+    at async sequentialAsyncForEach (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\utils\async.js:15:7)
+    at async Site.generatePagesSequential (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1113:5)
+    at async C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1094:23
+    at async sequentialAsyncForEach (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\utils\async.js:15:7)
+    at async Site.runPageGenerationTasks (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1085:5)
+    at async Site.regenerateAffectedPages (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1316:7)
+    at async Site._rebuildAffectedSourceFiles (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:742:7)
+2021-06-29T06:19:54.221Z - info: [2:19:54 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2021-06-29T06:19:54.222Z - info: Synchronizing opened pages list before reload
+2021-06-29T06:19:54.222Z - info: Current opened pages, from most-to-least recent:
+2021-06-29T06:19:54.222Z - info: 1. admin/tp-expectations
+2021-06-29T06:19:55.238Z - info: Rebuilding 1 pages
+2021-06-29T06:19:55.638Z - info: Site data built
+2021-06-29T06:19:55.638Z - info: Pages rebuilt
+2021-06-29T06:19:55.638Z - info: Website regeneration complete! Total build time: 0.401s
+2021-06-29T06:23:51.357Z - info: Website generation started at 2:23:49 pm
+2021-06-29T06:23:56.609Z - info: Building assets...
