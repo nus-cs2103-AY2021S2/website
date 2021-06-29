@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.18.1">
+    <meta name="generator" content="MarkBind 3.0.3">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2103/T - Week 8 - Tutorial</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -15,226 +14,17 @@
     <link rel="stylesheet" href="../../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../../markbind/css/markbind.min.css"><script src="../../markbind/js/polyfill.min.js"></script>
     <script src="../../markbind/js/vue.min.js"></script>
     <script src="../../markbind/js/markbind.min.js"></script>
-    <script src="../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
-    <link rel="stylesheet" href="/website/css/main.css">
-    <link rel="stylesheet" href="/website/css/schedule.css"><link rel="icon" href="/website/favicon.ico"></head>
-<body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
-<div id="app">
-    <header fixed>
-<div class="w-100 p-1 bg-warning text-center"><span><strong>This site is from a past semester! The current version will be <a href="http://www.comp.nus.edu.sg/~cs2103">here</a> when the new semester starts.</strong></span></div>
-<navbar placement="top" type="dark" class="temp-navbar">
-<a slot="brand" href="/website/index.html" title="Home" class="navbar-brand"><span class="badge badge-pill badge-success">CS2103/T <small>2021 Jan-May</small></span></a>
-  <div class="nav-link temp-dropdown-placeholder">**Schedule**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Schedule</strong></template>
-  <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
-<li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Mon, Jan 11th] </span></a></li>
-<li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Fri, Jan 15th] </span></a></li>
-<li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Fri, Jan 22nd] </span></a></li>
-<li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Fri, Jan 29th] </span></a></li>
-<li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Fri, Feb 5th] </span></a></li>
-<li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Fri, Feb 12th] </span></a></li>
-<li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Fri, Feb 19th] </span></a></li>
-<li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Fri, Mar 5th] </span></a></li>
-<li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Fri, Mar 12th] </span></a></li>
-<li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Fri, Mar 19th] </span></a></li>
-<li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Fri, Mar 26th] </span></a></li>
-<li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Fri, Apr 2nd] </span></a></li>
-<li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
-  <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-  <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-cs2103-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
-    <span><strong> Individual Project (iP):</strong></span>
-    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
-    <li><a href="https://github.com/nus-cs2103-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
-    <li tags="m--cs2103 m--tic4001 m--tic4002"><a href="/website/admin/ip-showcase.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> iP Showcase</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/ip-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
-    <hr>
-    <span><strong> Team Project (tP):</strong></span>
-    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
-    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-cs2103-AY2021S2/tp" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> tP Upstream Repo (AB3)</span></a></li>
+    <script src="tutorial.page-vue-render.js"></script>
+    <script src="../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css">
     
-    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
-    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-    <li><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-    
-    <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
-    <li><a href="https://luminus.nus.edu.sg/modules/0205ba47-730b-4cf2-a48d-fbddcd3553d0/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-    <li><a href="https://luminus.nus.edu.sg/modules/0205ba47-730b-4cf2-a48d-fbddcd3553d0/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> Files (handouts, submissions etc.)</span></a></li>
-    <li tags="m--cs2113 m--cs2103"><a href="/website/admin/tutorials.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li>
-    
-    
-    <li><a href="https://teams.microsoft.com/l/team/19%3a6ac468d3601d448a89069f389d42d6f7%40thread.tacv2/conversations?groupId=29cec2b3-fc09-4b75-b6f1-faabdf41dbf4&tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-users-cog"></span> MS Teams link</span></a></li>
-    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
-    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
-    <li tags="m--cs2103 m--cs2113"><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
-    
-    </dropdown>
-  <li slot="right" class="nav-link">
-    <form class="navbar-form">
-      <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
-        
-
-
-<div id="content-wrapper">
-<div class="website-content">
-<nav>
-<ul class="pagination mt-2"><li class="page-item"><a class="page-link" href="/website/schedule/week7"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
-<li class="page-item">&nbsp;&nbsp;&nbsp;</li>
-<li class="page-item"><a class="page-link" href="/website/schedule/week8/index.html"><span><span><span aria-hidden="true" class="fas fa-bell"></span></span></span> Summary</a></li>
-<li class="page-item"><a class="page-link" href="/website/schedule/week8/admin.html"><span><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span> Admin Info</a></li>
-<li class="page-item"><a class="page-link" href="/website/schedule/week8/topics.html"><span><span><span aria-hidden="true" class="fas fa-book"></span></span></span> Topics</a></li>
-<li class="page-item"><a class="page-link" href="/website/schedule/week8/project.html"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span></span> Project</a></li>
-<li class="page-item active"><a class="page-link" href="/website/schedule/week8/tutorial.html"><span><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span></span> Tutorial</a></li>
-<li class="page-item">&nbsp;&nbsp;&nbsp;</li><li class="page-item"><a class="page-link" href="/website/schedule/week9"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li></ul></nav>
-<p></p>
-<h1 id="week-8-fri-mar-5th-tutorial"><span id="week-8-fri-mar-5th-tutorial" class="anchor"></span>Week 8 <small><small><span class="dimmed">[Fri, Mar 5th]</span> - Tutorial</small></small><a class="fa fa-anchor" href="#week-8-fri-mar-5th-tutorial" onclick="event.stopPropagation()"></a></h1>
-<div>
-<div>
-<box type="info">
-<pic src="/website/admin/images/drawingDiagrams.png" add-class="float-right mr-2 ml-2">
-<p><small>[Image source: <a href="https://www.deekit.com/7-reasons-why-engineers-are-the-whiteboard-artists/">this article</a>]</small></p></pic>
-<strong><em>Hand-drawing</em> diagrams on a white-board and on paper is an important practical skill</strong> <span class="dimmed">(e.g., for technical interviews, project discussions)</span>. It's possible that the diagrams you draw in your first few attempts to look amateurish, messy, and hard to read, and the drawing itself will take a long time. With more practice, you will be able to draw such diagrams quicker <span class="dimmed">(e.g., draw as you explain verbally your design)</span>, with less need for corrections, and the diagrams will look more <em>professional</em> too.<p></p>
-<p>That is why we have structured these tutorials to get everyone to practice this skill so that <strong>your first few (not-so-good) diagram drawing experiences happen in the tutorial, not in an interview or during your internship.</strong></p>
-<p>Note the following:</p>
-<ul>
-<li>Draw <mark>on paper or on a whiteboard or use a free-hand drawing software</mark> (e.g., Bamboo paper). If latter, do not use UML software or predefined shapes.</li>
-<li>For the same reason, don't use rulers.</li>
-<li>When the tutor asks you to, take a screenshot or a photo of the drawing and post in the <em>tutorial workspace</em> document.</li>
-<li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> There are mobile apps (<a href="https://apps.apple.com/sg/app/evernote-scannable/id883338188">example</a>) that can take a photo of a document and and convert it to a high-quality scan.
-</li></ul></box></div>
-<h4 id="1-exercise-draw-a-class-diagram-and-an-object-diagram"><span id="1-exercise-draw-a-class-diagram-and-an-object-diagram" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Exercise: draw a class diagram and an object diagram<a class="fa fa-anchor" href="#1-exercise-draw-a-class-diagram-and-an-object-diagram" onclick="event.stopPropagation()"></a></h4>
-<div>
-
-<div class="indented">
-<p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Question adapted from past exam paper.</p></div>
-<ol>
-<li><span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the tutorial</span></span> <strong>Do the following exercise</strong>, by <mark>hand-drawing</mark> the answer.<br>
-Use the following layout:<br>
-<img src="/website/admin/images/draw-stock-cd/classLayout.png" width="600"></li></ol>
-<div class="indented-level2">
-<div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Draw a Class Diagram for the code (<code class="hljs inline no-lang" v-pre>StockItem</code>, <code class="hljs inline no-lang" v-pre>Inventory</code>, <code class="hljs inline no-lang" v-pre>Review</code>, etc.)</p></template>
-<question>
-<p>Consider the code below:</p>
-<div class="row">
-  <div class="col-sm-6">
-<pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Billable</span> </span>{
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">bill</span><span class="hljs-params">()</span></span>;
-</span><span>}
-</span></code></pre><pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Item</span></span>
-</span><span><span class="hljs-class">         <span class="hljs-keyword">implements</span> <span class="hljs-title">Billable</span> </span>{
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span></span>;
-</span><span>}
-</span></code></pre><pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StockItem</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Item</span> </span>{
-</span><span>    <span class="hljs-keyword">private</span> Review review;
-</span><span>    <span class="hljs-keyword">private</span> String name;
-</span><span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">StockItem</span><span class="hljs-params">(</span></span>
-</span><span><span class="hljs-function"><span class="hljs-params">        String name, Rating rating)</span> </span>{
-</span><span>
-</span><span>        <span class="hljs-keyword">this</span>.name = name;
-</span><span>        <span class="hljs-keyword">this</span>.review = <span class="hljs-keyword">new</span> Review(rating);
-</span><span>    }
-</span><span>
-</span><span>    <span class="hljs-meta">@Override</span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span> </span>{
-</span><span>        <span class="hljs-comment">//...</span>
-</span><span>    }
-</span><span>
-</span><span>    <span class="hljs-meta">@Override</span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">bill</span><span class="hljs-params">()</span> </span>{
-</span><span>        <span class="hljs-comment">//...</span>
-</span><span>    }
-</span><span>}
-</span></code></pre></div>
-  <div class="col-sm-6">
-<pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">enum</span> <span class="hljs-title">Rating</span> </span>{
-</span><span>    GOOD, OK, POOR
-</span><span>}
-</span></code></pre><pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Review</span> </span>{
-</span><span>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> Rating rating;
-</span><span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Review</span><span class="hljs-params">(Rating rating)</span> </span>{
-</span><span>        <span class="hljs-keyword">this</span>.rating = rating;
-</span><span>    }
-</span><span>}
-</span></code></pre><pre><code class="hljs java" v-pre><span><span class="hljs-keyword">import</span> java.util.List;
-</span><span>
-</span><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Inventory</span> </span>{
-</span><span>    <span class="hljs-keyword">private</span> List&lt;Item&gt; items;
-</span><span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getItemCount</span><span class="hljs-params">()</span> </span>{
-</span><span>        <span class="hljs-keyword">return</span> items.size();
-</span><span>    }
-</span><span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">generateBill</span><span class="hljs-params">(Billable b)</span> </span>{
-</span><span>        <span class="hljs-comment">// ...</span>
-</span><span>    }
-</span><span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">add</span><span class="hljs-params">(Item s)</span> </span>{
-</span><span>        items.add(s);
-</span><span>    }
-</span><span>}
-</span></code></pre></div></div>
-<p>(a) Draw a class diagram to represent the code. Show all attributes, methods, associations, navigabilities, visibilities, known multiplicities, and association roles. Show associations as lines.<br>
-(b) Draw an object diagram to represent the situation where the inventory has one item named <code class="hljs inline no-lang" v-pre>spanner</code> and a review of <code class="hljs inline no-lang" v-pre>POOR</code> rating<br>
-i.e., <code class="hljs inline java" v-pre><span class="hljs-keyword">new</span> Inventory().add(<span class="hljs-keyword">new</span> StockItem(<span class="hljs-string">&quot;spanner&quot;</span>, <span class="hljs-keyword">new</span> Review(Rating.POOR)))</code>.</p></question></panel></div>
-<p></p></div>
-<ol start="2">
-<li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> during the tutorial</span></span>
-<ul>
-<li>Paste the diagram (take a photo if you drew on paper) in the <em>tutorial workspace</em> document.</li>
-<li><strong>Discuss answers</strong> as guided by the tutor.</li></ul></li></ol></div>
-<h4 id="2-exercise-draw-a-sequence-diagram"><span id="2-exercise-draw-a-sequence-diagram" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Exercise: draw a sequence diagram<a class="fa fa-anchor" href="#2-exercise-draw-a-sequence-diagram" onclick="event.stopPropagation()"></a></h4>
-<div>
-<ol>
-<li><span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the tutorial</span></span></li></ol>
-<div class="indented-level2">
-<p><strong>(a) Do the following exercise</strong> similar to the previous one.</p>
-<div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Draw a Sequence Diagram for the code (<code class="hljs inline no-lang" v-pre>PersonList</code>, <code class="hljs inline no-lang" v-pre>Person</code>, <code class="hljs inline no-lang" v-pre>Tag</code>)</p></template>
-<question>
-<p>Consider the code below:</p>
-<div class="row">
-  <div class="col-sm-7">
-<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
-</span><span>    Tag tag;
-</span><span>    String name;
-</span><span>
-</span><span>    Person(String personName, String tagName) {
-</span><span>        name = personName;
-</span><span>        tag = <span class="hljs-keyword">new</span> Tag(tagName);
-</span><span>    }
-</span><span>}
-</span></code></pre></div>
-  <div class="col-sm-5">
-<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tag</span> </span>{
-</span><span>    Tag(String value) {
-</span><span>        <span class="hljs-comment">// ...</span>
-</span><span>    }
-</span><span>}
-</span><span>
-</span><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonList</span> </span>{
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">addPerson</span><span class="hljs-params">(Person p)</span> </span>{
-</span><span>        <span class="hljs-comment">// ...</span>
-</span><span>    }
-</span><span>}
-</span></code></pre></div></div>
-<p>Draw a sequence diagram to illustrate the object interactions that happen in the code snippet below:</p>
-<pre><code class="hljs java" v-pre><span>PersonList personList = <span class="hljs-keyword">new</span> PersonList();
-</span><span><span class="hljs-keyword">while</span> (hasRoom) {
-</span><span>    Person p = <span class="hljs-keyword">new</span> Person(<span class="hljs-string">&quot;Adam&quot;</span>, <span class="hljs-string">&quot;friend&quot;</span>);
-</span><span>    personList.addPerson(p);
-</span><span>}
-</span></code></pre></question></panel></div>
-<p></p>
-<p><strong>(b) How would you update the diagram</strong> if the <code class="hljs inline no-lang" v-pre>PersonList</code> class was updated as follows?</p>
-<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonList</span></span>{
+<link rel="stylesheet" href="/website/css/main.css">
+<link rel="icon" href="/website/favicon.ico"></head>
+<script>
+  const baseUrl = '/website'
+</script>
+<body  data-spy="scroll" data-target="#mb-page-nav" data-offset="100" >
+<div id="app" data-server-rendered="true"><header fixed=""><div class="w-100 p-1 bg-warning text-center"><span><strong>This site is from a past semester! The current version will be <a href="http://www.comp.nus.edu.sg/~cs2103">here</a> when the new semester starts.</strong></span></div> <div placement="top" data-v-15113a2f><nav class="navbar navbar-expand-md navbar-dark bg-dark" data-v-15113a2f><div class="container-fluid" data-v-15113a2f><div class="navbar-brand" data-v-15113a2f><a href="/website/index.html" title="Home" class="navbar-brand" data-v-15113a2f><span class="badge badge-pill badge-success" data-v-15113a2f>CS2103/T <small data-v-15113a2f>2021 Jan-May</small></span></a></div> <button type="button" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-v-15113a2f><span class="navbar-toggler-icon" data-v-15113a2f></span> </button> <div class="navbar-collapse collapse" data-v-15113a2f><ul class="navbar-nav mr-auto mt-2 mt-lg-0" data-v-15113a2f> <li class="nav-link algolia-no-index dropdown" data-v-2e98b3f0><a role="button" class="dropdown-toggle" data-v-2e98b3f0><strong data-v-2e98b3f0>Schedule</strong></a> <ul class="dropdown-menu" data-v-2e98b3f0> <li data-v-2e98b3f0><a href="/website/schedule/timeline.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Full Timeline</strong></span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week1/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 1</strong> [Mon, Jan 11th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week2/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 2</strong> [Fri, Jan 15th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week3/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 3</strong> [Fri, Jan 22nd] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week4/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 4</strong> [Fri, Jan 29th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week5/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 5</strong> [Fri, Feb 5th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week6/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 6</strong> [Fri, Feb 12th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week7/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 7</strong> [Fri, Feb 19th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week8/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 8</strong> [Fri, Mar 5th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week9/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 9</strong> [Fri, Mar 12th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week10/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 10</strong> [Fri, Mar 19th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week11/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 11</strong> [Fri, Mar 26th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week12/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 12</strong> [Fri, Apr 2nd] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week13/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 13</strong> [Fri, Apr 9th] </span></a></li></ul></li> <li data-v-15113a2f><a href="/website/se-book-adapted/index.html" class="nav-link" data-v-15113a2f><span data-v-15113a2f><strong data-v-15113a2f>Textbook</strong></span></a></li> <li data-v-15113a2f><a href="/website/admin/index.html" class="nav-link" data-v-15113a2f><span data-v-15113a2f><strong data-v-15113a2f>Admin Info</strong></span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-15113a2f><a href="https://nus-cs2103-ay2021s2.github.io/dashboards" target="_blank" class="nav-link" data-v-15113a2f><span data-v-15113a2f><strong data-v-15113a2f>Dashboards</strong></span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link algolia-no-index dropdown" data-v-2e98b3f0><a role="button" class="dropdown-toggle" data-v-2e98b3f0><strong data-v-2e98b3f0>Project Links</strong></a> <ul class="dropdown-menu" data-v-2e98b3f0> <span data-v-2e98b3f0><strong data-v-2e98b3f0> Individual Project (iP):</strong></span> <li data-v-2e98b3f0><a href="/website/admin/ip-overview.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-drafting-compass" data-v-2e98b3f0></span></span></span> Individual Project Info</a></li> <li data-v-2e98b3f0><a href="https://github.com/nus-cs2103-AY2021S2/ip" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-code-branch" data-v-2e98b3f0></span></span></span> iP Upstream Repo</a></li> <li tags="m--cs2103 m--tic4001 m--tic4002" data-v-2e98b3f0><a href="/website/admin/ip-showcase.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-2e98b3f0></span> iP Showcase</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-chart-area" data-v-2e98b3f0></span> iP Code Dashboard</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-trophy" data-v-2e98b3f0></span> iP Progress Dashboard</span></a></li> <hr data-v-2e98b3f0> <span data-v-2e98b3f0><strong data-v-2e98b3f0> Team Project (tP):</strong></span> <li data-v-2e98b3f0><a href="/website/admin/tp-expectations.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-drafting-compass" data-v-2e98b3f0></span></span></span> Team Project Info</a></li> <li tags="m--cs2103 m--tic4002" data-v-2e98b3f0><a href="https://github.com/nus-cs2103-AY2021S2/tp" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-code-branch" data-v-2e98b3f0></span></span></span> tP Upstream Repo (AB3)</a></li> <li data-v-2e98b3f0><a href="/website/admin/teamList.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-2e98b3f0></span> Team List</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-chart-area" data-v-2e98b3f0></span> tP Code Dashboard</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-trophy" data-v-2e98b3f0></span> tP Progress Dashboard</span></a></li></ul></li> <li class="nav-link algolia-no-index dropdown" data-v-2e98b3f0><a role="button" class="dropdown-toggle" data-v-2e98b3f0><strong data-v-2e98b3f0>Other Links</strong></a> <ul class="dropdown-menu" data-v-2e98b3f0> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-2e98b3f0><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-bug" data-v-2e98b3f0></span> Report Bugs</span></a></li> <li data-v-2e98b3f0><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-comment" data-v-2e98b3f0></span> Forum</span></a></li> <li data-v-2e98b3f0><a href="/website/admin/instructors.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-user-tie" data-v-2e98b3f0></span> Instructors</span></a></li> <li data-v-2e98b3f0><a href="https://luminus.nus.edu.sg/modules/0205ba47-730b-4cf2-a48d-fbddcd3553d0/announcements/active" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="glyphicon glyphicon-bullhorn" data-v-2e98b3f0></span> Announcements</span></a></li> <li data-v-2e98b3f0><a href="https://luminus.nus.edu.sg/modules/0205ba47-730b-4cf2-a48d-fbddcd3553d0/files" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-file-upload" data-v-2e98b3f0></span> Files (handouts, submissions etc.)</span></a></li> <li tags="m--cs2113 m--cs2103" data-v-2e98b3f0><a href="/website/admin/tutorials.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="glyphicon glyphicon-calendar" data-v-2e98b3f0></span> Tutorial Schedule</span></a></li> <li data-v-2e98b3f0><a href="https://teams.microsoft.com/l/team/19%3a6ac468d3601d448a89069f389d42d6f7%40thread.tacv2/conversations?groupId=29cec2b3-fc09-4b75-b6f1-faabdf41dbf4&amp;tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-users-cog" data-v-2e98b3f0></span> MS Teams link</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002" data-v-2e98b3f0><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-code" data-v-2e98b3f0></span> Java Coding Standard</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-2e98b3f0><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fab fa-git-square" data-v-2e98b3f0></span> Git Conventions</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-trophy" data-v-2e98b3f0></span> Forum Activities Dashboard</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-trophy" data-v-2e98b3f0></span> Participation Dashboard</span></a></li></ul></li></ul> <ul class="navbar-nav navbar-right" data-v-15113a2f><li class="nav-link" data-v-15113a2f><form class="navbar-form" data-v-15113a2f><div style="position:relative;"><input type="text" placeholder="Search" autocomplete="off" value="" class="form-control"> <ul class="dropdown-menu search-dropdown-menu dropdown-menu-right"></ul></div></form></li></ul></div></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-15113a2f><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div class="website-content"><nav><ul class="pagination mt-2"><li class="page-item"><a href="/website/schedule/week7" class="page-link"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li> <li class="page-item">   </li> <li class="page-item"><a href="/website/schedule/week8/index.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-bell"></span></span></span> Summary</a></li> <li class="page-item"><a href="/website/schedule/week8/admin.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span> Admin Info</a></li> <li class="page-item"><a href="/website/schedule/week8/topics.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-book"></span></span></span> Topics</a></li> <li class="page-item"><a href="/website/schedule/week8/project.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span></span> Project</a></li> <li class="page-item active"><a href="/website/schedule/week8/tutorial.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span></span> Tutorial</a></li> <li class="page-item">   </li><li class="page-item"><a href="/website/schedule/week9" class="page-link"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li></ul></nav> <p></p> <h1 id="week-8-fri-mar-5th-tutorial"><span id="week-8-fri-mar-5th-tutorial" class="anchor"></span>Week 8 <small><small><span class="dimmed">[Fri, Mar 5th]</span> - Tutorial</small></small><a href="#week-8-fri-mar-5th-tutorial" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1> <div><div><div class="alert box-container alert-info" data-v-7d17494f><!----> <div class="header-and-body" data-v-7d17494f><!----> <div class="box-body-wrapper" data-v-7d17494f><div class="icon-wrapper" data-v-7d17494f><i class="fas fa-info" data-v-7d17494f></i></div> <!----> <div class="contents" data-v-7d17494f><span class="image-wrapper float-right mr-2 ml-2"><img src="/website/admin/images/drawingDiagrams.png" width="" class="img-fluid rounded"> <span class="image-caption"><p><small>[Image source: <a href="https://www.deekit.com/7-reasons-why-engineers-are-the-whiteboard-artists/">this article</a>]</small></p></span></span> <strong data-v-7d17494f><em data-v-7d17494f>Hand-drawing</em> diagrams on a white-board and on paper is an important practical skill</strong> <span class="dimmed" data-v-7d17494f>(e.g., for technical interviews, project discussions)</span>. It's possible that the diagrams you draw in your first few attempts to look amateurish, messy, and hard to read, and the drawing itself will take a long time. With more practice, you will be able to draw such diagrams quicker <span class="dimmed" data-v-7d17494f>(e.g., draw as you explain verbally your design)</span>, with less need for corrections, and the diagrams will look more <em data-v-7d17494f>professional</em> too.<p data-v-7d17494f></p> <p data-v-7d17494f>That is why we have structured these tutorials to get everyone to practice this skill so that <strong data-v-7d17494f>your first few (not-so-good) diagram drawing experiences happen in the tutorial, not in an interview or during your internship.</strong></p> <p data-v-7d17494f>Note the following:</p> <ul data-v-7d17494f><li data-v-7d17494f>Draw <mark data-v-7d17494f>on paper or on a whiteboard or use a free-hand drawing software</mark> (e.g., Bamboo paper). If latter, do not use UML software or predefined shapes.</li> <li data-v-7d17494f>For the same reason, don't use rulers.</li> <li data-v-7d17494f>When the tutor asks you to, take a screenshot or a photo of the drawing and post in the <em data-v-7d17494f>tutorial workspace</em> document.</li> <li data-v-7d17494f><span class="badge badge-pill badge-warning" data-v-7d17494f><span aria-hidden="true" class="fas fa-lightbulb" data-v-7d17494f></span></span> There are mobile apps (<a href="https://apps.apple.com/sg/app/evernote-scannable/id883338188" data-v-7d17494f>example</a>) that can take a photo of a document and and convert it to a high-quality scan.</li></ul></div> <!----></div></div></div></div> <h4 id="1-exercise-draw-a-class-diagram-and-an-object-diagram"><span id="1-exercise-draw-a-class-diagram-and-an-object-diagram" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> Exercise: draw a class diagram and an object diagram<a href="#1-exercise-draw-a-class-diagram-and-an-object-diagram" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <div><div class="indented"><p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Question adapted from past exam paper.</p></div> <ol><li><span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the tutorial</span></span> <strong>Do the following exercise</strong>, by <mark>hand-drawing</mark> the answer.<br>
+Use the following layout:<br> <img src="/website/admin/images/draw-stock-cd/classLayout.png" width="600"></li></ol> <div class="indented-level2"><div><div class="algolia-no-index card-container" data-v-5681bde8><div class="card expandable-card" data-v-5681bde8><div class="card-header header-toggle bg-light" data-v-5681bde8><div class="caret-wrapper" data-v-5681bde8><!----></div> <div class="header-wrapper card-title bg-light" data-v-5681bde8><p data-v-5681bde8><span data-v-5681bde8><span aria-hidden="true" class="glyphicon glyphicon-question-sign" data-v-5681bde8></span></span> Draw a Class Diagram for the code (<code class="hljs inline no-lang" data-v-5681bde8>StockItem</code>, <code class="hljs inline no-lang" data-v-5681bde8>Inventory</code>, <code class="hljs inline no-lang" data-v-5681bde8>Review</code>, etc.)</p></div> <div class="button-wrapper" data-v-5681bde8><button type="button" class="collapse-button btn btn-outline-secondary" data-v-5681bde8><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-secondary" data-v-5681bde8><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-5681bde8></span></button> <button type="button" class="popup-button btn btn-outline-secondary" style="display:none;" data-v-5681bde8><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-5681bde8></span></button></div></div> <div class="card-collapse" data-v-5681bde8><!----> <hr style="display:none;" data-v-5681bde8></div> <!----></div></div></div> <p></p></div> <ol start="2"><li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> during the tutorial</span></span> <ul><li>Paste the diagram (take a photo if you drew on paper) in the <em>tutorial workspace</em> document.</li> <li><strong>Discuss answers</strong> as guided by the tutor.</li></ul></li></ol></div> <h4 id="2-exercise-draw-a-sequence-diagram"><span id="2-exercise-draw-a-sequence-diagram" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> Exercise: draw a sequence diagram<a href="#2-exercise-draw-a-sequence-diagram" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <div><ol><li><span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> before the tutorial</span></span></li></ol> <div class="indented-level2"><p><strong>(a) Do the following exercise</strong> similar to the previous one.</p> <div><div class="algolia-no-index card-container" data-v-5681bde8><div class="card expandable-card" data-v-5681bde8><div class="card-header header-toggle bg-light" data-v-5681bde8><div class="caret-wrapper" data-v-5681bde8><!----></div> <div class="header-wrapper card-title bg-light" data-v-5681bde8><p data-v-5681bde8><span data-v-5681bde8><span aria-hidden="true" class="glyphicon glyphicon-question-sign" data-v-5681bde8></span></span> Draw a Sequence Diagram for the code (<code class="hljs inline no-lang" data-v-5681bde8>PersonList</code>, <code class="hljs inline no-lang" data-v-5681bde8>Person</code>, <code class="hljs inline no-lang" data-v-5681bde8>Tag</code>)</p></div> <div class="button-wrapper" data-v-5681bde8><button type="button" class="collapse-button btn btn-outline-secondary" data-v-5681bde8><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-secondary" data-v-5681bde8><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-5681bde8></span></button> <button type="button" class="popup-button btn btn-outline-secondary" style="display:none;" data-v-5681bde8><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-5681bde8></span></button></div></div> <div class="card-collapse" data-v-5681bde8><!----> <hr style="display:none;" data-v-5681bde8></div> <!----></div></div></div> <p></p> <p><strong>(b) How would you update the diagram</strong> if the <code class="hljs inline no-lang">PersonList</code> class was updated as follows?</p> <pre><code class="hljs java"><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonList</span></span>{
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">addPerson</span><span class="hljs-params">(Person p)</span></span>{
 </span><span>        add(p);
 </span><span>    }
@@ -243,49 +33,20 @@ i.e., <code class="hljs inline java" v-pre><span class="hljs-keyword">new</span>
 </span><span>        <span class="hljs-comment">//...</span>
 </span><span>    }
 </span><span>}
-</span></code></pre></div>
-<ol start="2">
-<li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> during the tutorial</span></span>:</li></ol>
-<div class="indented">
-<ul>
-<li>As before, paste the diagram in the <em>tutorial workspace</em> document, and take part in the follow up discussion, as guided by the tutor.</li></ul></div></div></div></div>
-<p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
-        <nav id="page-nav" class="navbar navbar-light bg-transparent">
-<div class="border-left-grey nav-inner position-sticky slim-scroll">
-
-<nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-<a class="nav-link py-1" href="#week-8-fri-mar-5th-tutorial">Week 8 [Fri, Mar 5th] - Tutorial&#x200E;</a>
-<nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#1-exercise-draw-a-class-diagram-and-an-object-diagram">1 Exercise: draw a class diagram and an object diagram&#x200E;</a>
-<a class="nav-link py-1" href="#2-exercise-draw-a-sequence-diagram">2 Exercise: draw a sequence diagram&#x200E;</a>
-</nav>
-
-</nav>
-</div>
-</nav>
-</div>
-    <footer>
-  
-  <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.1</a>, generated on Fri, 4 Jun 2021, 23:50:33 GMT+8]</small></div></footer></div>
-</body>
-<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+</span></code></pre></div> <ol start="2"><li><span class="badge badge-info font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> during the tutorial</span></span>:</li></ol> <div class="indented"><ul><li>As before, paste the diagram in the <em>tutorial workspace</em> document, and take part in the follow up discussion, as guided by the tutor.</li></ul></div></div></div></div> <i id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true" class="fa fa-arrow-circle-up fa-lg d-print-none"></i></div> <nav id="page-nav" class="fixed-header-padding" data-v-e8c82f88><div class="nav-component slim-scroll" data-v-e8c82f88><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-e8c82f88><a href="#week-8-fri-mar-5th-tutorial" class="nav-link py-1" data-v-e8c82f88>Week 8 [Fri, Mar 5th] - Tutorial‎</a> <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap" data-v-e8c82f88><a href="#1-exercise-draw-a-class-diagram-and-an-object-diagram" class="nav-link py-1" data-v-e8c82f88>1 Exercise: draw a class diagram and an object diagram‎</a> <a href="#2-exercise-draw-a-sequence-diagram" class="nav-link py-1" data-v-e8c82f88>2 Exercise: draw a sequence diagram‎</a></nav> <!----></nav></div> <!----></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 3.0.3</a>, generated on Tue, 29 Jun 2021, 13:42:45 GMT+8]</small></div></footer></div>
+</body><script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
-  const baseUrl = '/website'
   MarkBind.setupWithSearch()
 </script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
-    function initAlgolia() {
-      docsearch({
-        apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
-        indexName: "nus-cs2103-ay1920s1",
-        inputSelector: "#algolia-search-input",
-        algoliaOptions: {"hitsPerPage":10},
-        debug: false,
-      });
-    }
-    initAlgolia();
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {"hitsPerPage":10},
+      debug: false,
+    });
   </script>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -297,5 +58,4 @@ i.e., <code class="hljs inline java" v-pre><span class="hljs-keyword">new</span>
     
       gtag('config', 'UA-122519234-1');
     </script>
-<script src="../../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
 </html>

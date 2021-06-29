@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.18.1">
+    <meta name="generator" content="MarkBind 3.0.3">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CS2103/T - Week 2 - Tutorial</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -15,121 +14,29 @@
     <link rel="stylesheet" href="../../markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="../../markbind/css/markbind.min.css"><script src="../../markbind/js/polyfill.min.js"></script>
     <script src="../../markbind/js/vue.min.js"></script>
     <script src="../../markbind/js/markbind.min.js"></script>
-    <script src="../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="../../markbind/layouts/default/styles.css"><link rel="stylesheet" href="/website/book/css/textbook.css">
-    <link rel="stylesheet" href="/website/css/main.css">
-    <link rel="stylesheet" href="/website/css/schedule.css"><link rel="icon" href="/website/favicon.ico"></head>
-<body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
-<div id="app">
-    <header fixed>
-<div class="w-100 p-1 bg-warning text-center"><span><strong>This site is from a past semester! The current version will be <a href="http://www.comp.nus.edu.sg/~cs2103">here</a> when the new semester starts.</strong></span></div>
-<navbar placement="top" type="dark" class="temp-navbar">
-<a slot="brand" href="/website/index.html" title="Home" class="navbar-brand"><span class="badge badge-pill badge-success">CS2103/T <small>2021 Jan-May</small></span></a>
-  <div class="nav-link temp-dropdown-placeholder">**Schedule**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Schedule</strong></template>
-  <li><a href="/website/schedule/timeline.html" class="dropdown-item"><span><strong>Full Timeline</strong></span></a></li>
-<li><a href="/website/schedule/week1/index.html" class="dropdown-item"> <span><strong>Week 1</strong> [Mon, Jan 11th] </span></a></li>
-<li><a href="/website/schedule/week2/index.html" class="dropdown-item"> <span><strong>Week 2</strong> [Fri, Jan 15th] </span></a></li>
-<li><a href="/website/schedule/week3/index.html" class="dropdown-item"> <span><strong>Week 3</strong> [Fri, Jan 22nd] </span></a></li>
-<li><a href="/website/schedule/week4/index.html" class="dropdown-item"> <span><strong>Week 4</strong> [Fri, Jan 29th] </span></a></li>
-<li><a href="/website/schedule/week5/index.html" class="dropdown-item"> <span><strong>Week 5</strong> [Fri, Feb 5th] </span></a></li>
-<li><a href="/website/schedule/week6/index.html" class="dropdown-item"> <span><strong>Week 6</strong> [Fri, Feb 12th] </span></a></li>
-<li><a href="/website/schedule/week7/index.html" class="dropdown-item"> <span><strong>Week 7</strong> [Fri, Feb 19th] </span></a></li>
-<li><a href="/website/schedule/week8/index.html" class="dropdown-item"> <span><strong>Week 8</strong> [Fri, Mar 5th] </span></a></li>
-<li><a href="/website/schedule/week9/index.html" class="dropdown-item"> <span><strong>Week 9</strong> [Fri, Mar 12th] </span></a></li>
-<li><a href="/website/schedule/week10/index.html" class="dropdown-item"> <span><strong>Week 10</strong> [Fri, Mar 19th] </span></a></li>
-<li><a href="/website/schedule/week11/index.html" class="dropdown-item"> <span><strong>Week 11</strong> [Fri, Mar 26th] </span></a></li>
-<li><a href="/website/schedule/week12/index.html" class="dropdown-item"> <span><strong>Week 12</strong> [Fri, Apr 2nd] </span></a></li>
-<li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
-  <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
-  <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-cs2103-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
-    <span><strong> Individual Project (iP):</strong></span>
-    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
-    <li><a href="https://github.com/nus-cs2103-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
-    <li tags="m--cs2103 m--tic4001 m--tic4002"><a href="/website/admin/ip-showcase.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> iP Showcase</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/ip-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
-    <hr>
-    <span><strong> Team Project (tP):</strong></span>
-    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
-    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-cs2103-AY2021S2/tp" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> tP Upstream Repo (AB3)</span></a></li>
+    <script src="tutorial.page-vue-render.js"></script>
+    <script src="../../markbind/js/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css">
     
-    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
-    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
-    <li><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
-    
-    <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
-    <li><a href="https://luminus.nus.edu.sg/modules/0205ba47-730b-4cf2-a48d-fbddcd3553d0/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-    <li><a href="https://luminus.nus.edu.sg/modules/0205ba47-730b-4cf2-a48d-fbddcd3553d0/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> Files (handouts, submissions etc.)</span></a></li>
-    <li tags="m--cs2113 m--cs2103"><a href="/website/admin/tutorials.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-calendar"></span> Tutorial Schedule</span></a></li>
-    
-    
-    <li><a href="https://teams.microsoft.com/l/team/19%3a6ac468d3601d448a89069f389d42d6f7%40thread.tacv2/conversations?groupId=29cec2b3-fc09-4b75-b6f1-faabdf41dbf4&tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-users-cog"></span> MS Teams link</span></a></li>
-    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
-    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
-    <li tags="m--cs2103 m--cs2113"><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
-    <li><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
-    
-    </dropdown>
-  <li slot="right" class="nav-link">
-    <form class="navbar-form">
-      <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
-        
-
-
-<div id="content-wrapper">
-<div class="website-content">
-<nav>
-<ul class="pagination mt-2"><li class="page-item"><a class="page-link" href="/website/schedule/week1"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li>
-<li class="page-item">&nbsp;&nbsp;&nbsp;</li>
-<li class="page-item"><a class="page-link" href="/website/schedule/week2/index.html"><span><span><span aria-hidden="true" class="fas fa-bell"></span></span></span> Summary</a></li>
-<li class="page-item"><a class="page-link" href="/website/schedule/week2/admin.html"><span><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span> Admin Info</a></li>
-<li class="page-item"><a class="page-link" href="/website/schedule/week2/topics.html"><span><span><span aria-hidden="true" class="fas fa-book"></span></span></span> Topics</a></li>
-<li class="page-item"><a class="page-link" href="/website/schedule/week2/project.html"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span></span> Project</a></li>
-<li class="page-item active"><a class="page-link" href="/website/schedule/week2/tutorial.html"><span><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span></span> Tutorial</a></li>
-<li class="page-item">&nbsp;&nbsp;&nbsp;</li><li class="page-item"><a class="page-link" href="/website/schedule/week3"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li></ul></nav>
-<p></p>
-<h1 id="week-2-fri-jan-15th-tutorial"><span id="week-2-fri-jan-15th-tutorial" class="anchor"></span>Week 2 <small><small><span class="dimmed">[Fri, Jan 15th]</span> - Tutorial</small></small><a class="fa fa-anchor" href="#week-2-fri-jan-15th-tutorial" onclick="event.stopPropagation()"></a></h1>
-<div>
-<ul>
-<li>No tutorials in this week.</li>
-<li>Should you encounter doubts/problems while doing weekly tasks, please post in the <a href="https://github.com/nus-cs2103-AY2021S2/forum/issues">forum</a>.</li></ul></div></div>
-<p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
-        <nav id="page-nav" class="navbar navbar-light bg-transparent">
-<div class="border-left-grey nav-inner position-sticky slim-scroll">
-
-<nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-<a class="nav-link py-1" href="#week-2-fri-jan-15th-tutorial">Week 2 [Fri, Jan 15th] - Tutorial&#x200E;</a>
-
-</nav>
-</div>
-</nav>
-</div>
-    <footer>
-  
-  <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.1</a>, generated on Fri, 4 Jun 2021, 23:50:33 GMT+8]</small></div></footer></div>
-</body>
-<script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<link rel="stylesheet" href="/website/css/main.css">
+<link rel="icon" href="/website/favicon.ico"></head>
 <script>
   const baseUrl = '/website'
+</script>
+<body  data-spy="scroll" data-target="#mb-page-nav" data-offset="100" >
+<div id="app" data-server-rendered="true"><header fixed=""><div class="w-100 p-1 bg-warning text-center"><span><strong>This site is from a past semester! The current version will be <a href="http://www.comp.nus.edu.sg/~cs2103">here</a> when the new semester starts.</strong></span></div> <div placement="top" data-v-15113a2f><nav class="navbar navbar-expand-md navbar-dark bg-dark" data-v-15113a2f><div class="container-fluid" data-v-15113a2f><div class="navbar-brand" data-v-15113a2f><a href="/website/index.html" title="Home" class="navbar-brand" data-v-15113a2f><span class="badge badge-pill badge-success" data-v-15113a2f>CS2103/T <small data-v-15113a2f>2021 Jan-May</small></span></a></div> <button type="button" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-v-15113a2f><span class="navbar-toggler-icon" data-v-15113a2f></span> </button> <div class="navbar-collapse collapse" data-v-15113a2f><ul class="navbar-nav mr-auto mt-2 mt-lg-0" data-v-15113a2f> <li class="nav-link algolia-no-index dropdown" data-v-2e98b3f0><a role="button" class="dropdown-toggle" data-v-2e98b3f0><strong data-v-2e98b3f0>Schedule</strong></a> <ul class="dropdown-menu" data-v-2e98b3f0> <li data-v-2e98b3f0><a href="/website/schedule/timeline.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Full Timeline</strong></span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week1/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 1</strong> [Mon, Jan 11th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week2/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 2</strong> [Fri, Jan 15th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week3/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 3</strong> [Fri, Jan 22nd] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week4/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 4</strong> [Fri, Jan 29th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week5/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 5</strong> [Fri, Feb 5th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week6/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 6</strong> [Fri, Feb 12th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week7/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 7</strong> [Fri, Feb 19th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week8/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 8</strong> [Fri, Mar 5th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week9/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 9</strong> [Fri, Mar 12th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week10/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 10</strong> [Fri, Mar 19th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week11/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 11</strong> [Fri, Mar 26th] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week12/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 12</strong> [Fri, Apr 2nd] </span></a></li> <li data-v-2e98b3f0><a href="/website/schedule/week13/index.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><strong data-v-2e98b3f0>Week 13</strong> [Fri, Apr 9th] </span></a></li></ul></li> <li data-v-15113a2f><a href="/website/se-book-adapted/index.html" class="nav-link" data-v-15113a2f><span data-v-15113a2f><strong data-v-15113a2f>Textbook</strong></span></a></li> <li data-v-15113a2f><a href="/website/admin/index.html" class="nav-link" data-v-15113a2f><span data-v-15113a2f><strong data-v-15113a2f>Admin Info</strong></span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-15113a2f><a href="https://nus-cs2103-ay2021s2.github.io/dashboards" target="_blank" class="nav-link" data-v-15113a2f><span data-v-15113a2f><strong data-v-15113a2f>Dashboards</strong></span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link algolia-no-index dropdown" data-v-2e98b3f0><a role="button" class="dropdown-toggle" data-v-2e98b3f0><strong data-v-2e98b3f0>Project Links</strong></a> <ul class="dropdown-menu" data-v-2e98b3f0> <span data-v-2e98b3f0><strong data-v-2e98b3f0> Individual Project (iP):</strong></span> <li data-v-2e98b3f0><a href="/website/admin/ip-overview.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-drafting-compass" data-v-2e98b3f0></span></span></span> Individual Project Info</a></li> <li data-v-2e98b3f0><a href="https://github.com/nus-cs2103-AY2021S2/ip" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-code-branch" data-v-2e98b3f0></span></span></span> iP Upstream Repo</a></li> <li tags="m--cs2103 m--tic4001 m--tic4002" data-v-2e98b3f0><a href="/website/admin/ip-showcase.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-2e98b3f0></span> iP Showcase</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-chart-area" data-v-2e98b3f0></span> iP Code Dashboard</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-trophy" data-v-2e98b3f0></span> iP Progress Dashboard</span></a></li> <hr data-v-2e98b3f0> <span data-v-2e98b3f0><strong data-v-2e98b3f0> Team Project (tP):</strong></span> <li data-v-2e98b3f0><a href="/website/admin/tp-expectations.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-drafting-compass" data-v-2e98b3f0></span></span></span> Team Project Info</a></li> <li tags="m--cs2103 m--tic4002" data-v-2e98b3f0><a href="https://github.com/nus-cs2103-AY2021S2/tp" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-code-branch" data-v-2e98b3f0></span></span></span> tP Upstream Repo (AB3)</a></li> <li data-v-2e98b3f0><a href="/website/admin/teamList.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-2e98b3f0></span> Team List</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-chart-area" data-v-2e98b3f0></span> tP Code Dashboard</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-trophy" data-v-2e98b3f0></span> tP Progress Dashboard</span></a></li></ul></li> <li class="nav-link algolia-no-index dropdown" data-v-2e98b3f0><a role="button" class="dropdown-toggle" data-v-2e98b3f0><strong data-v-2e98b3f0>Other Links</strong></a> <ul class="dropdown-menu" data-v-2e98b3f0> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-2e98b3f0><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-bug" data-v-2e98b3f0></span> Report Bugs</span></a></li> <li data-v-2e98b3f0><a href="https://github.com/nus-cs2103-AY2021S2/forum/issues" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-comment" data-v-2e98b3f0></span> Forum</span></a></li> <li data-v-2e98b3f0><a href="/website/admin/instructors.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-user-tie" data-v-2e98b3f0></span> Instructors</span></a></li> <li data-v-2e98b3f0><a href="https://luminus.nus.edu.sg/modules/0205ba47-730b-4cf2-a48d-fbddcd3553d0/announcements/active" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="glyphicon glyphicon-bullhorn" data-v-2e98b3f0></span> Announcements</span></a></li> <li data-v-2e98b3f0><a href="https://luminus.nus.edu.sg/modules/0205ba47-730b-4cf2-a48d-fbddcd3553d0/files" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-file-upload" data-v-2e98b3f0></span> Files (handouts, submissions etc.)</span></a></li> <li tags="m--cs2113 m--cs2103" data-v-2e98b3f0><a href="/website/admin/tutorials.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="glyphicon glyphicon-calendar" data-v-2e98b3f0></span> Tutorial Schedule</span></a></li> <li data-v-2e98b3f0><a href="https://teams.microsoft.com/l/team/19%3a6ac468d3601d448a89069f389d42d6f7%40thread.tacv2/conversations?groupId=29cec2b3-fc09-4b75-b6f1-faabdf41dbf4&amp;tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-users-cog" data-v-2e98b3f0></span> MS Teams link</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002" data-v-2e98b3f0><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-code" data-v-2e98b3f0></span> Java Coding Standard</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-2e98b3f0><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fab fa-git-square" data-v-2e98b3f0></span> Git Conventions</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-trophy" data-v-2e98b3f0></span> Forum Activities Dashboard</span></a></li> <li data-v-2e98b3f0><a href="https://nus-cs2103-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success" data-v-2e98b3f0><span data-v-2e98b3f0><span aria-hidden="true" class="fas fa-trophy" data-v-2e98b3f0></span> Participation Dashboard</span></a></li></ul></li></ul> <ul class="navbar-nav navbar-right" data-v-15113a2f><li class="nav-link" data-v-15113a2f><form class="navbar-form" data-v-15113a2f><div style="position:relative;"><input type="text" placeholder="Search" autocomplete="off" value="" class="form-control"> <ul class="dropdown-menu search-dropdown-menu dropdown-menu-right"></ul></div></form></li></ul></div></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-15113a2f><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div class="website-content"><nav><ul class="pagination mt-2"><li class="page-item"><a href="/website/schedule/week1" class="page-link"><span><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <strong>Previous Week</strong></span></a></li> <li class="page-item">   </li> <li class="page-item"><a href="/website/schedule/week2/index.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-bell"></span></span></span> Summary</a></li> <li class="page-item"><a href="/website/schedule/week2/admin.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span> Admin Info</a></li> <li class="page-item"><a href="/website/schedule/week2/topics.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-book"></span></span></span> Topics</a></li> <li class="page-item"><a href="/website/schedule/week2/project.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span></span> Project</a></li> <li class="page-item active"><a href="/website/schedule/week2/tutorial.html" class="page-link"><span><span><span aria-hidden="true" class="fas fa-chalkboard-teacher"></span></span></span> Tutorial</a></li> <li class="page-item">   </li><li class="page-item"><a href="/website/schedule/week3" class="page-link"><span><strong>Next Week</strong> <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></span></a></li></ul></nav> <p></p> <h1 id="week-2-fri-jan-15th-tutorial"><span id="week-2-fri-jan-15th-tutorial" class="anchor"></span>Week 2 <small><small><span class="dimmed">[Fri, Jan 15th]</span> - Tutorial</small></small><a href="#week-2-fri-jan-15th-tutorial" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1> <div><ul><li>No tutorials in this week.</li> <li>Should you encounter doubts/problems while doing weekly tasks, please post in the <a href="https://github.com/nus-cs2103-AY2021S2/forum/issues">forum</a>.</li></ul></div></div> <i id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true" class="fa fa-arrow-circle-up fa-lg d-print-none"></i></div> <nav id="page-nav" class="fixed-header-padding" data-v-e8c82f88><div class="nav-component slim-scroll" data-v-e8c82f88><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-e8c82f88><a href="#week-2-fri-jan-15th-tutorial" class="nav-link py-1" data-v-e8c82f88>Week 2 [Fri, Jan 15th] - Tutorial‎</a> <!----></nav></div> <!----></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 3.0.3</a>, generated on Tue, 29 Jun 2021, 13:42:45 GMT+8]</small></div></footer></div>
+</body><script src="../../markbind/js/bootstrap-utility.min.js"></script>
+<script>
   MarkBind.setupWithSearch()
 </script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
-    function initAlgolia() {
-      docsearch({
-        apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
-        indexName: "nus-cs2103-ay1920s1",
-        inputSelector: "#algolia-search-input",
-        algoliaOptions: {"hitsPerPage":10},
-        debug: false,
-      });
-    }
-    initAlgolia();
+    docsearch({
+      apiKey: "0b1e4ae12d54a6114a4c5d131a850c2b",
+      indexName: "nus-cs2103-ay1920s1",
+      inputSelector: "#algolia-search-input",
+      algoliaOptions: {"hitsPerPage":10},
+      debug: false,
+    });
   </script>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -141,5 +48,4 @@
     
       gtag('config', 'UA-122519234-1');
     </script>
-<script src="../../markbind/layouts/default/scripts.js"></script><script>if (MarkBind.AfterSetup) MarkBind.AfterSetup()</script>
 </html>

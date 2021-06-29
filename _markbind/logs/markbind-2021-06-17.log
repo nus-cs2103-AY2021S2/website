@@ -1,0 +1,44 @@
+2021-06-17T15:08:00.138Z - info: Website generation (lazy) started at 11:07:58 pm
+2021-06-17T15:08:08.301Z - info: Building assets...
+2021-06-17T15:08:14.110Z - info: Assets built
+2021-06-17T15:08:14.110Z - info: Generating landing page...
+2021-06-17T15:08:14.759Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-17T15:08:15.545Z - info: Site data built
+2021-06-17T15:08:15.545Z - info: Website generation (lazy) complete! Total build time: 17.207s
+2021-06-17T15:08:16.342Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-17T15:08:16.342Z - info: Press CTRL+C to stop ...
+2021-06-17T15:09:15.215Z - info: [11:09:15 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\navigation\adminSiteNav.md
+2021-06-17T15:09:15.217Z - info: Synchronizing opened pages list before reload
+2021-06-17T15:09:15.218Z - info: Current opened pages, from most-to-least recent:
+2021-06-17T15:09:15.218Z - info: 1. website/index
+2021-06-17T15:09:16.481Z - info: No pages needed to be rebuilt
+2021-06-17T15:09:19.923Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\index as some of its dependencies were changed since the last visit
+2021-06-17T15:09:20.326Z - info: Site data built
+2021-06-17T15:09:20.327Z - info: Lazy website regeneration complete! Total build time: 0.404s
+2021-06-17T15:12:37.445Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\usingThisWebsite as some of its dependencies were changed since the last visit
+2021-06-17T15:12:38.096Z - info: Site data built
+2021-06-17T15:12:38.097Z - info: Lazy website regeneration complete! Total build time: 0.651s
+2021-06-17T15:14:40.212Z - info: [11:14:40 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-17T15:14:40.213Z - info: Synchronizing opened pages list before reload
+2021-06-17T15:14:40.213Z - info: Current opened pages, from most-to-least recent:
+2021-06-17T15:14:40.213Z - info: 1. website/admin/usingThisWebsite
+2021-06-17T15:14:41.330Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-17T15:14:41.336Z - info: No pages needed to be rebuilt
+2021-06-17T15:14:50.842Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\usingThisWebsite as some of its dependencies were changed since the last visit
+2021-06-17T15:14:51.383Z - info: Site data built
+2021-06-17T15:14:51.384Z - info: Lazy website regeneration complete! Total build time: 0.542s
+2021-06-17T15:15:29.958Z - info: [11:15:29 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-17T15:15:29.958Z - info: Synchronizing opened pages list before reload
+2021-06-17T15:15:29.958Z - info: Current opened pages, from most-to-least recent:
+2021-06-17T15:15:29.958Z - info: 1. website/admin/usingThisWebsite
+2021-06-17T15:15:31.061Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-17T15:15:31.067Z - info: No pages needed to be rebuilt
+2021-06-17T15:16:03.654Z - info: [11:16:03 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-17T15:16:03.654Z - info: Synchronizing opened pages list before reload
+2021-06-17T15:16:03.654Z - info: Current opened pages, from most-to-least recent:
+2021-06-17T15:16:03.655Z - info: 1. website/admin/usingThisWebsite
+2021-06-17T15:16:04.695Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-17T15:16:04.700Z - info: No pages needed to be rebuilt
+2021-06-17T15:16:09.109Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\usingThisWebsite as some of its dependencies were changed since the last visit
+2021-06-17T15:16:09.543Z - info: Site data built
+2021-06-17T15:16:09.544Z - info: Lazy website regeneration complete! Total build time: 0.435s
