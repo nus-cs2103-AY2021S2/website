@@ -14,6 +14,6 @@ with(this){return _c('nav',[_c('ul',{staticClass:"pagination mt-2"},[_c('li',{st
 with(this){return _c('h1',{attrs:{"id":"week-13-fri-apr-9th-tutorial"}},[_c('span',{staticClass:"anchor",attrs:{"id":"week-13-fri-apr-9th-tutorial"}}),_v("Week 13 "),_c('small',[_c('small',[_c('span',{staticClass:"dimmed"},[_v("[Fri, Apr 9th]")]),_v(" - Tutorial")])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#week-13-fri-apr-9th-tutorial","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 3.0.3")]),_v(", generated on Tue, 29 Jun 2021, 14:24:01 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 3.0.4")]),_v(", generated on Mon, 5 Jul 2021, 22:52:32 GMT+8]")])])])}
 }];
   

@@ -1,0 +1,39 @@
+2021-07-05T13:47:43.107Z - info: Website generation (lazy) started at 9:47:43 pm
+2021-07-05T13:47:47.766Z - info: Building assets...
+2021-07-05T13:47:52.575Z - info: Assets built
+2021-07-05T13:47:52.575Z - info: Generating landing page...
+2021-07-05T13:47:53.422Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-07-05T13:47:54.483Z - info: Site data built
+2021-07-05T13:47:54.483Z - info: Website generation (lazy) complete! Total build time: 11.421s
+2021-07-05T13:47:55.364Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-07-05T13:47:55.364Z - info: Press CTRL+C to stop ...
+2021-07-05T13:50:47.048Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\appendixD-help as some of its dependencies were changed since the last visit
+2021-07-05T13:50:47.454Z - info: Site data built
+2021-07-05T13:50:47.455Z - info: Lazy website regeneration complete! Total build time: 0.41s
+2021-07-05T13:51:28.220Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations as some of its dependencies were changed since the last visit
+2021-07-05T13:51:28.743Z - info: Site data built
+2021-07-05T13:51:28.744Z - info: Lazy website regeneration complete! Total build time: 0.523s
+2021-07-05T13:51:35.721Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\ip-overview as some of its dependencies were changed since the last visit
+2021-07-05T13:51:35.946Z - info: Site data built
+2021-07-05T13:51:35.946Z - info: Lazy website regeneration complete! Total build time: 0.225s
+2021-07-05T13:51:43.480Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\instructors as some of its dependencies were changed since the last visit
+2021-07-05T13:51:43.641Z - info: Site data built
+2021-07-05T13:51:43.641Z - info: Lazy website regeneration complete! Total build time: 0.161s
+2021-07-05T14:42:28.978Z - info: [10:42:28 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\macros.njk
+2021-07-05T14:42:28.979Z - info: Synchronizing opened pages list before reload
+2021-07-05T14:42:28.980Z - info: Current opened pages, from most-to-least recent:
+2021-07-05T14:42:28.980Z - info: 1. admin/instructors
+2021-07-05T14:42:30.279Z - info: Rebuilding 1 pages
+2021-07-05T14:42:30.460Z - info: Site data built
+2021-07-05T14:42:30.461Z - info: Pages rebuilt
+2021-07-05T14:42:30.461Z - info: Website regeneration complete! Total build time: 0.183s
+2021-07-05T14:44:38.592Z - info: [10:44:38 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\macros.njk
+2021-07-05T14:44:38.592Z - info: Synchronizing opened pages list before reload
+2021-07-05T14:44:38.592Z - info: Current opened pages, from most-to-least recent:
+2021-07-05T14:44:38.593Z - info: 1. admin/instructors
+2021-07-05T14:44:39.770Z - info: Rebuilding 1 pages
+2021-07-05T14:44:39.875Z - info: Site data built
+2021-07-05T14:44:39.876Z - info: Pages rebuilt
+2021-07-05T14:44:39.876Z - info: Website regeneration complete! Total build time: 0.107s
+2021-07-05T14:52:24.239Z - info: Website generation started at 10:52:22 pm
+2021-07-05T14:52:28.338Z - info: Building assets...
