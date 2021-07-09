@@ -99,6 +99,12 @@
       "headingKeywords": {}
     },
     {
+      "src": "admin/githubClassroomInfo.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
       "src": "admin/gradeBreakdown.md",
       "title": "Admin: Grade Breakdown",
       "headings": {
@@ -161,13 +167,13 @@
     },
     {
       "src": "admin/ip-w2.md",
-      "title": "Admin: Apdx D: Getting Help",
+      "title": "Admin: iP: Week 2",
       "headings": {
         "1": "1 Learn about the project",
         "2": "2 Set up prerequisites",
         "3": "3 Set up the project in your computer",
         "ip-week-2": "iP: Week 2 ",
-        "4-add-increments-while-committing-frequently-level-1-level-2-level-3-level-4-a-textuitesting-level-5-level-6-a-enums-span-aria-hidden-true-class-far-fa-clock-span-thu-jan-21st-2359": "4 Add Increments while committing frequently: Level-1, Level-2, Level-3, Level-4, A-TextUiTesting, Level-5, Level-6, A-Enums  Thu, Jan 21st 2359"
+        "4-add-increments-while-committing-frequently-level-1-level-2-level-3-level-4-a-textuitesting-level-5-level-6-a-enums-span-aria-hidden-true-class-far-fa-clock-span-thu-aug-19th-2359": "4 Add Increments while committing frequently: Level-1, Level-2, Level-3, Level-4, A-TextUiTesting, Level-5, Level-6, A-Enums  Thu, Aug 19th 2359"
       },
       "headingKeywords": {}
     },
@@ -215,7 +221,7 @@
         "3": "3 Set up a product website",
         "ip-week-6": "iP: Week 6 ",
         "1-add-increment-a-bettergui": "1 Add Increment: A-BetterGui",
-        "4-span-aria-hidden-true-class-far-fa-clock-span-fri-feb-19th-2359": "4 Submit the final version  Fri, Feb 19th 2359"
+        "4-span-aria-hidden-true-class-far-fa-clock-span-fri-sep-17th-2359": "4 Submit the final version  Fri, Sep 17th 2359"
       },
       "headingKeywords": {}
     },
@@ -233,7 +239,7 @@
       "title": "Admin: iP: Week 8",
       "headings": {
         "ip-week-8": "iP: Week 8 ",
-        "1-span-aria-hidden-true-class-far-fa-clock-span-sat-mar-13th-2359-span-aria-hidden-true-class-fab-fa-product-hunt-span": "1 Evaluate two peer iPs  Sat, Mar 13th 2359 counted for participation"
+        "1-span-aria-hidden-true-class-far-fa-clock-span-sat-oct-9th-2359-span-aria-hidden-true-class-fab-fa-product-hunt-span": "1 Evaluate two peer iPs  Sat, Oct 9th 2359 counted for participation"
       },
       "headingKeywords": {}
     },
@@ -579,10 +585,10 @@
         "1": "1  Do final polish-ups",
         "5": "5  Prepare for the practical exam",
         "tp-week-13-v1-4": "tP week 13: v1.4 ",
-        "2-span-aria-hidden-true-class-far-fa-clock-span-mon-apr-12th-2359": "2  Submit deliverables  Mon, Apr 12th 2359",
-        "3-span-aria-hidden-true-class-far-fa-clock-span-wed-apr-14th-2359": "3  Wrap up the milestone  Wed, Apr 14th 2359",
-        "4-span-aria-hidden-true-class-far-fa-clock-span-wed-apr-14th-2359": "4  Submit the demo video  Wed, Apr 14th 2359",
-        "6-span-aria-hidden-true-class-far-fa-clock-span-during-lecture-on-fri-apr-16th": "6  Attend the practical exam  during lecture on Fri, Apr 16th "
+        "2-span-aria-hidden-true-class-far-fa-clock-span-mon-nov-8th-2359": "2  Submit deliverables  Mon, Nov 8th 2359",
+        "3-span-aria-hidden-true-class-far-fa-clock-span-wed-nov-10th-2359": "3  Wrap up the milestone  Wed, Nov 10th 2359",
+        "4-span-aria-hidden-true-class-far-fa-clock-span-wed-nov-10th-2359": "4  Submit the demo video  Wed, Nov 10th 2359",
+        "6-span-aria-hidden-true-class-far-fa-clock-span-during-lecture-on-fri-nov-12th": "6  Attend the practical exam  during lecture on Fri, Nov 12th "
       },
       "headingKeywords": {}
     },
@@ -731,7 +737,7 @@
       "src": "se-book-adapted/index.md",
       "title": "Textbook",
       "headings": {
-        "software-engineering-for-self-directed-learners-cs2103-t-edition-2021-jan-may": "Software Engineering for Self-Directed Learners CS2103/T edition - 2021 Jan-May"
+        "software-engineering-for-self-directed-learners-cs2103-t-edition-2021-aug-dec": "Software Engineering for Self-Directed Learners CS2103/T edition - 2021 Aug-Dec"
       },
       "headingKeywords": {}
     },
