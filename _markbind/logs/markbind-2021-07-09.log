@@ -1111,3 +1111,48 @@ Missing reference in C:\repos\nus-cs2103\cs2103-website-base\_markbind\layouts\d
 2021-07-09T12:27:38.677Z - info: Lazy website regeneration complete! Total build time: 0.316s
 2021-07-09T12:28:41.440Z - info: Website generation started at 8:28:39 pm
 2021-07-09T12:28:46.313Z - info: Building assets...
+2021-07-09T12:28:50.278Z - info: Assets built
+2021-07-09T12:28:50.279Z - info: Generating pages...
+2021-07-09T12:28:58.417Z - debug:  
+2021-07-09T12:28:58.417Z - debug:  
+2021-07-09T12:28:58.418Z - debug:  
+2021-07-09T12:28:58.420Z - debug:  
+2021-07-09T12:28:58.421Z - debug:  
+2021-07-09T12:28:58.421Z - debug:  
+2021-07-09T12:30:42.434Z - debug:  
+2021-07-09T12:30:51.755Z - debug:  
+2021-07-09T12:30:51.755Z - debug:  
+2021-07-09T12:30:57.578Z - info: Pages built
+2021-07-09T12:30:58.323Z - info: Site data built
+2021-07-09T12:30:58.323Z - info: Website generation complete! Total build time: 138.485s
+2021-07-09T12:30:58.323Z - info: Build success!
+2021-07-09T12:31:10.111Z - info: Deployed at https://nus-cs2103-ay2021s2.github.io/website!
+2021-07-09T12:43:05.544Z - info: Website generation started at 8:43:01 pm
+2021-07-09T12:43:11.264Z - info: Building assets...
+2021-07-09T12:43:15.585Z - info: Assets built
+2021-07-09T12:43:15.586Z - info: Generating pages...
+2021-07-09T12:43:23.937Z - debug:  
+2021-07-09T12:43:23.938Z - debug:  
+2021-07-09T12:43:23.938Z - debug:  
+2021-07-09T12:43:23.938Z - debug:  
+2021-07-09T12:43:23.938Z - debug:  
+2021-07-09T12:43:23.938Z - debug:  
+2021-07-09T12:44:57.667Z - debug:  
+2021-07-09T12:45:05.853Z - debug:  
+2021-07-09T12:45:05.853Z - debug:  
+2021-07-09T12:45:10.487Z - info: Pages built
+2021-07-09T12:45:11.166Z - info: Site data built
+2021-07-09T12:45:11.166Z - info: Website generation complete! Total build time: 129.761s
+2021-07-09T12:45:11.166Z - info: Build success!
+2021-07-09T12:45:21.688Z - info: Deployed at https://nus-cs2103-ay2122s1.github.io/website!
+2021-07-09T13:09:42.212Z - info: Website generation (lazy) started at 9:09:38 pm
+2021-07-09T13:09:46.546Z - info: Building assets...
+2021-07-09T13:09:50.807Z - info: Assets built
+2021-07-09T13:09:50.807Z - info: Generating landing page...
+2021-07-09T13:09:51.360Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-07-09T13:09:52.027Z - info: Site data built
+2021-07-09T13:09:52.027Z - info: Website generation (lazy) complete! Total build time: 13.373s
+2021-07-09T13:09:52.682Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-07-09T13:09:52.682Z - info: Press CTRL+C to stop ...
+2021-07-09T13:10:32.020Z - info: Website generation started at 9:10:30 pm
+2021-07-09T13:10:36.060Z - info: Building assets...
